@@ -1,0 +1,22 @@
+{
+  "name": "feederror",
+  "version": "1.0.0",
+  "description": "feed validator",
+  "main": "feederror.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "feed"
+  ],
+  "author": "James Ma",
+  "license": "ISC",
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "extract-zip": "^1.6.0",
+    "rmdir": "^1.2.0",
+    "stream": "0.0.2",
+    "unzip": "^0.1.11",
+    "util": "^0.10.3"
+  }
+}
