@@ -4,6 +4,7 @@ var stream = require('stream');
 var es = require('event-stream');
 var unzip = require('unzip');
 var deltaError = require('./helper/deltaHelper.js');
+var productFull = require('./helper/product_full.js');
 var fileName = "\/" + process.argv[2];
 var delim = process.argv[3];
 var dirPath = __dirname;
@@ -39,6 +40,11 @@ function validate(files){
 	console.log(files);
 	for(i=0; i < files.length; i++){
 		console.log(dirPath+fileName.slice(0, -4)+"\/"+files[i]);
+
+		if(files[i].slice(0,12) === 'product_full'){
+			product_Full();
+		}
+
 		if (i === files.length-1){
 			console.log('Delete Process Started');
 			rmdir(dirPath + fileName.slice(0, -4), function (err, dirs, files) {
@@ -80,6 +86,34 @@ function validate(files){
 	// 	})
 	// );
 	}
+}
+
+function product_Full(){
+	console.time('Validation Excuted In');
+	//Validation Process
+	var s = fs.createReadStream(dirPath+fileName.slice(0, -4)+"\/"+files[i])
+		.pipe(es.split())
+		//.pipe(es.parse({error:true}))
+		.pipe(es.mapSync(function(line){
+			s.pause();
+
+			productFull.rowCheck(line, rowCount,delim);
+
+			rowCount++;
+
+			s.resume();
+		})
+		.on('error', function(){
+			console.log('Error while reading file');
+		})
+		.on('end', function(){
+			console.log('Read entire file.\n');
+
+			productFull.printLog(rowCount);
+
+			console.timeEnd('Validation Excuted In');
+		})
+	);
 }
 
 
