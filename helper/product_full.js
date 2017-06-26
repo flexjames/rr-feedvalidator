@@ -2,6 +2,8 @@ var productHeaderLength;
 var rowCollisionError = [];
 var rowMinLengthError = [];
 var productRowHeaderCheck = true;
+var requiredHeader = ['product_id', 'name', 'price', 'recommendable', 'image_url', 'link_url'];
+var missingRequiredHeader = [];
 
 function rowMergeCheck(row, idx, delim){
 	if((row.split(delim).length) > productHeaderLength){
@@ -15,18 +17,32 @@ function rowLengthCheck(row, idx, delim){
 	}
 }
 
-function productHeaderCheck(row){
-	// for(i = 0; i < deltaProductHeader.length; i++){
-	// 	if (row[i] !== deltaProductHeader[i]){
-	// 		productRowHeaderCheck = false;
-	// 	}
-	// }
+function productHeaderLengthCheck(row){
 	productHeaderLength = row.length;
 }
 
+function productHeaderCheck(row){
+	requiredHeader.forEach(function(header){
+		if (row.indexOf(header) === -1){
+			missingRequiredHeader.push(header);
+		}
+	});
+}
+
+function rowCheck(row,idx,delim){
+	if (row === 1){ 
+		productHeaderLengthCheck(row);
+		productHeaderCheck(row);
+	}else{
+		rowMergeCheck(row, idx, delim);
+		rowLengthCheck(row, idx, delim);
+	}
+}
+
 function printLog(rowCount){
-	//productRowHeaderCheck === true ? console.log('The Header Attributes Are Correct.\n') : console.log('There Is One Or More Header Attributes Missing.\n');
-		
+	console.log('Number of Required Header Missing: ', missingRequiredHeader.length);
+	missingRequiredHeader.length === 0 ? console.log('All required headers are present!\n') : console.log('The following headers are missing: ', missingRequiredHeader.toString() + '\n');
+
 	console.log('Number of Row Collision Error(s): ', rowCollisionError.length);
 	rowCollisionError.length === 0 ? console.log('Error Occured on These Rows: There are no errors!\n') : console.log('Error Occured On These Rows: ', rowCollisionError.toString() + '\n');
 
@@ -42,9 +58,7 @@ function printLog(rowCount){
 // }
 
 module.exports = {
-	rowMergeCheck : rowMergeCheck,
-	rowLengthCheck: rowLengthCheck,
-	productHeaderCheck: productHeaderCheck,
+	rowCheck: rowCheck,
 	printLog: printLog
 };
 
