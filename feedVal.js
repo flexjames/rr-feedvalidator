@@ -42,7 +42,7 @@ function validate(files){
 		console.log(dirPath+fileName.slice(0, -4)+"\/"+files[i]);
 
 		if(files[i].slice(0,12) === 'product_full'){
-			product_Full();
+			product_Full(files[i]);
 		}
 
 		if (i === files.length-1){
@@ -88,10 +88,10 @@ function validate(files){
 	}
 }
 
-function product_Full(){
+function product_Full(file){
 	console.time('Validation Excuted In');
 	//Validation Process
-	var s = fs.createReadStream(dirPath+fileName.slice(0, -4)+"\/"+files[i])
+	var s = fs.createReadStream(dirPath+fileName.slice(0, -4)+"\/"+file)
 		.pipe(es.split())
 		//.pipe(es.parse({error:true}))
 		.pipe(es.mapSync(function(line){
