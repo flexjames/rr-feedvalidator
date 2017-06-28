@@ -4,6 +4,7 @@ var rowMinLengthError = [];
 var productRowHeaderCheck = true;
 var requiredHeader = ['product_id', 'name', 'price', 'recommendable', 'image_url', 'link_url'];
 var missingRequiredHeader = [];
+var allProductIds = [];
 
 function rowMergeCheck(row, idx, delim){
 	if((row.split(delim).length) > productHeaderLength){
@@ -29,6 +30,14 @@ function productHeaderCheck(row){
 	});
 }
 
+function storeProductIds(row, delim){
+	allProductIds.push(row.split(delim)[0]);
+}
+
+function retrieveAllProductIds(){
+	return allProductIds;
+}
+
 function rowCheck(row,idx,delim){
 	if (row === 1){ 
 		productHeaderLengthCheck(row);
@@ -36,6 +45,7 @@ function rowCheck(row,idx,delim){
 	}else{
 		rowMergeCheck(row, idx, delim);
 		rowLengthCheck(row, idx, delim);
+		storeProductIds(row, delim);
 	}
 }
 
@@ -59,6 +69,7 @@ function printLog(rowCount){
 
 module.exports = {
 	rowCheck: rowCheck,
+	retrieveAllProductIds: retrieveAllProductIds,
 	printLog: printLog
 };
 
