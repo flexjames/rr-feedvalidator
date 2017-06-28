@@ -10,6 +10,7 @@ var delim = process.argv[3];
 var dirPath = __dirname;
 var rowCount = 1;
 var rmdir = require('rmdir');
+var productIds;
 
 console.log(dirPath + "\/" + process.argv[2].slice(0, -4) + "\/");
 
@@ -110,6 +111,7 @@ function product_Full(){
 			console.log('Read entire file.\n');
 
 			productFull.printLog(rowCount);
+			productIds = productFull.retrieveAllProductIds();
 
 			console.timeEnd('Validation Excuted In');
 		})
