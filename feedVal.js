@@ -14,6 +14,7 @@ var rowCountPic = 1;
 var rmdir = require('rmdir');
 var productIds;
 
+
 console.log(dirPath + "\/" + process.argv[2].slice(0, -4) + "\/");
 
 if(process.argv[2].indexOf('zip') > -1){
@@ -45,22 +46,19 @@ function validate(files){
 		// console.log(dirPath+fileName.slice(0, -4)+"\/"+files[i]);
 
 		if(files[i].slice(0,12) === 'product_full'){
-			product_Full(files[i]);
-		}
-		else if(files[i].slice(0,19) === 'product_in_category'){
-			product_In_Category(files[i]);
+			product_Full(files[i], files);
 		}
 
-		if (i === files.length-1){
-			console.log('Delete Process Started');
-			rmdir(dirPath + fileName.slice(0, -4), function (err, dirs, files) {
-				if (err) { console.log(err)};
-				console.log('Reached Delete Process');
-			  console.log(dirs);
-			  console.log(files);
-			  console.log('all files are removed');
-			});
-		}
+		// if (i === files.length-1){
+		// 	console.log('Delete Process Started');
+		// 	rmdir(dirPath + fileName.slice(0, -4), function (err, dirs, files) {
+		// 		if (err) { console.log(err)};
+		// 		console.log('Reached Delete Process');
+		// 	  console.log(dirs);
+		// 	  console.log(files);
+		// 	  console.log('all files are removed');
+		// 	});
+		// }
 	// console.time('Validation Excuted In');
 	//Validation Process
 	// var s = fs.createReadStream(dirPath+fileName+"\/"+files[0])
@@ -94,7 +92,7 @@ function validate(files){
 	}
 }
 
-function product_Full(file){
+function product_Full(file, files){
 	console.time('Product Full Validation Excuted In');
 	//Validation Process
 	var s = fs.createReadStream(dirPath+fileName.slice(0, -4)+"\/"+file)
@@ -118,12 +116,21 @@ function product_Full(file){
 			productFull.printLog(rowCountPf);
 			productIds = productFull.retrieveAllProductIds();
 
+			// console.log(productIds);
+
+			for(var i = 0; i < files.length; i++)
+			{
+				if(files[i].slice(0,19) === 'product_in_category'){
+					product_In_Category(files[i], productIds);
+				}
+			}
+
 			console.timeEnd('Product Full Validation Excuted In');
 		})
 	);
 }
 
-function product_In_Category(file){
+function product_In_Category(file, productIds){
 	console.time('Product In Category Validation Excuted In');
 	// console.log("ProductIDs: " + productIds);
 	//Validation Process
@@ -144,8 +151,6 @@ function product_In_Category(file){
 		})
 		.on('end', function(){
 			console.log('Read entire file.\n');
-			
-			// console.log(productIds);
 
 			prodInCat.printLog(rowCountPic);
 			// productIds = prodInCat.retrieveAllProductIds();

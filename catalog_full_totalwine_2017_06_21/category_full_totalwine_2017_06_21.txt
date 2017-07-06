@@ -1,0 +1,2832 @@
+category_id|parent_id|name
+0205||Case/Matching Discounts-Wine
+0500||Misc. Coupons
+060||Gifts
+0200||Wine Coupons
+0300||Spirits Coupons
+0100||Beer Coupons
+c0050||Accessories & More
+c0010||Beer
+c0020||Wine
+c0030||Spirits
+999999||Deals
+909090||Grand Reserve
+69342961||New Arrivals
+79620351420518||Gift Center
+928889771||Buttery Chardonnay Products
+200||BeerClass
+100||WineClass
+300||SpiritClass
+400||CigarClass
+050|400|Misc.
+020|100|Wine
+112|020|1.5L Sauv Blanc
+030|300|Spirits
+10|050|Unknown Items
+111|020|1.5L Chard
+114|020|1.5L Other White
+110|020|Wine Large Format Lock Box
+113|020|1.5L Pinot Grigio
+010|200|Beer
+117|020|1.5L Shiraz
+115|020|1.5L Cabernet
+118|020|1.5L Other Red
+116|020|1.5L Merlot
+120|020|Wine Primary 750 ML
+130|020|Wine - France
+126|020|Local Wine
+135|020|Wine - Germany
+150|020|Wine - Spain
+140|020|Wine - Italy Red
+170|020|Wine - Sparkling
+160|020|Wine - Desert
+190|020|Wine - White Zin./Beverage
+172|020|French Champagne
+180|020|Wine - 3L/4L
+195|020|Wine (Misc)
+1100|030|Spirits - Other
+1110|010|Beer - Big Breweries
+1120|010|Beer - Craft
+1165|050|Cigars
+1150|060|Gifts
+1166|050|Other Beverages
+1130|010|Beer - Imports
+1170|050|Misc.
+1204|020|Gewurztraminer/Riesling
+1201|020|Chardonnay
+1202|020|Sauvignon Blanc
+1203|020|Chenin Blanc
+1161|050|Food
+1207|020|Misc White
+1211|020|Pinot Noir
+1212|020|Zinfandel
+1213|020|Malbec
+1214|020|Misc Red
+1209|020|Cabernet Sauvignon
+1208|020|Dry Rose
+1215|020|Syrah/Shiraz
+1210|020|Merlot
+1320|020|Alsace
+1310|020|Beaujolais
+1300|020|Burgundy
+1330|020|Loire
+1340|020|Rhone
+1360|020|White Bordeaux
+1390|020|Pinot Grigio
+1350|020|Bordeaux
+1420|020|Port/Sherry
+1380|020|Tuscany
+1370|020|Piedmont
+1410|020|Dessert
+1440|020|French Champagne
+1511|060|Glassware
+1450|020|Box Wines
+1880|0300|Liquor Coupons
+1882|0100|Beer Coupons
+1883|0500|Misc. Coupons
+1881|0200|Wine Coupons
+1890|0205|Case/Matching Discounts - Wine
+1897|030|Spirits - Whisky Canadian
+1899|030|Spirits - Cordials / Liqueurs
+1898|030|Spirits - Gin
+1902|030|Spirits - RTD
+1903|030|Spirits - Vodka
+1904|030|Spirits - Brandy
+1905|030|Spirits - Rum
+1906|030|Spirits - Tequila
+1907|030|Spirits - Whiskey American
+1908|030|Spirits - Whisky Scotch
+1900|030|Spirits - Mixers
+1909|020|Wine - Italy White
+1910|020|Wine - Portugal
+22|120|Wine Primary 750 ML
+23|130|Wine - France
+24|140|Wine - Italy Red
+25|150|Wine - Spain
+27|170|Wine - Sparkling
+26|160|Wine - Desert
+28|180|Wine - 3L/4L
+29|190|Wine - White Zin./Beverage
+210|1100|Spirits - Other
+21|110|Wine Large Format Lock Box
+212|1120|Beer - Craft
+1911|010|Beer - Cider/Malt Bev/NAs
+213|1130|Beer - Imports
+215|1166|Other Beverages
+214|1880|Liquor Coupons
+216|1150|Accessories/Gifts - DO NOT USE - OLD
+218|1170|Misc.
+217|1161|Food (Not Cold)
+219|1881|Wine Coupons
+211|1110|Beer - Big Breweries
+220|1882|Beer Coupons
+222|10|Unknown Items
+221|1883|Misc. Coupons
+223|135|Wine - Germany
+226|1161|Food (Cold Box)
+224|1890|Case/Matching Discounts - Wine
+225|1166|Water
+227|1165|Cigars
+230|195|Wine (Misc)
+229|1166|Ice
+231|1201|Chardonnay
+228|1166|Coffee
+232|1202|Sauvignon Blanc
+234|1204|Gewurztraminer
+233|1207|Chenin Blanc
+235|1204|Riesling
+236|1207|Viognier
+237|1207|Misc White
+239|1209|Cabernet Sauvignon
+240|1210|Merlot
+241|1211|Pinot Noir
+242|1212|Zinfandel
+243|1213|Malbec
+244|1214|Misc Red
+245|1215|Syrah/Shiraz
+246|1300|Burgundy
+238|1208|Dry Rose
+247|1310|Beaujolais
+249|1340|Rhone
+250|1350|Bordeaux
+248|1330|Loire
+251|1370|Piedmont
+252|1380|Tuscany
+253|1360|White Bordeaux
+254|1320|Alsace
+256|195|Kosher
+255|1390|Pinot Grigio
+257|1410|Dessert
+258|1420|Port
+260|1440|French Champagne
+259|1420|Sherry
+261|1450|Box Wines
+263|1150|Bottle Openers - DO NOT USE - OLD
+262|1511|Glassware - DO NOT USE - OLD
+264|1150|Wine Preservers - DO NOT USE - OLD
+266|1150|Gift Bags - DO NOT USE - OLD
+265|1150|Wine Racks - DO NOT USE - OLD
+267|1150|Ice Buckets, Coolers - DO NOT USE - OLD
+268|111|1.5L Chard
+269|112|1.5L Sauv Blanc
+270|113|1.5L Pinot Grigio
+271|114|1.5L Other White
+272|115|1.5L Cabernet
+273|116|1.5L Merlot
+274|117|1.5L Shiraz
+277|126|Local Wine
+276|172|French Champagne
+275|118|1.5L Other Red
+279|1150|Wine Preserves
+278|1150|Gifts/Gift Supplies
+280|1150|Cleaning Supplies
+281|1150|Accessories
+282|1150|Bottle Openers
+283|1150|Bar Supplies
+284|1150|Cigar Accessories
+285|1150|Educational
+286|1150|Home Decor
+287|1150|Buckets, Chillers, Travel, Coolers
+288|1150|Wine Storage
+293|1897|Spirits - Whisky Canadian
+289|1511|Glassware
+294|1898|Spirits - Gin
+296|1900|Spirits - Mixers
+297|1905|Spirits-Rum
+295|1899|Spirits - Cordials / Liqueurs
+298|1100|Spirits-Grain Alcohol
+299|1906|Spirits-Tequila
+2101|1904|Spirits-Brandy/Brown
+2102|1904|Spirits-Brandy/White
+2103|1899|Spirits-Flavored Brandy
+2105|1902|Spirits-RTD
+2104|1899|Spirits-Schnapps
+2106|1908|Spirits - Whisky Scotch
+2107|1907|Spirits - Whiskey American
+2108|1166|Mixers
+2110|1910|Wine - Portugal
+2100|1903|Spirits-Vodka
+2109|1909|Wine - Italy White
+2111|1911|Beer - Cider/Malt Bev/NAs
+30|222|Unknown Class
+31|268|Chardonnay 1.5Liter
+32|269|Sauvignon Blanc 1.5Liter
+33|269|Fume Blanc 1.5Liter
+35|272|Cabernet Sauvignon 1.5Liter
+34|271|Alternative Whites 1.5Liter
+37|275|Pinot Noir 1.5Liter
+36|273|Merlot 1.5Liter
+38|275|Bardolino 1.5L
+39|231|CHARDONNAY
+310|232|SAUVIGNON BLANC / FUME BLANC
+311|233|CHENIN BLANC
+313|235|RIESLING
+312|234|GEWURZTRAMINER
+314|237|ALTERNATIVE WHITE
+315|237|SEMILLON
+316|236|VIOGNIER
+318|239|CABERNET SAUVIGNON
+319|244|Carmenere
+317|238|DRY BLUSH DO NOT USE
+320|240|MERLOT
+322|242|ZINFANDEL
+323|244|Red Blends
+321|241|PINOT NOIR
+324|244|PETITE SIRAH
+325|277|DE, PA, NJ
+326|277|NEW YORK
+327|277|FLORIDA
+328|277|MARYLAND
+330|230|CHINA
+329|223|AUSTRIA - ALL TYPES
+331|246|FRANCE BOURGOGNE BLANC
+333|246|Saint-Veran
+332|246|Rully DO NOT USE! rw
+334|246|Chablis DO NOT USE! rw
+335|246|Meursault
+336|246|Corton - Charlemagne
+337|246|Puligny Montrachet/Chassagne Montrachet
+339|246|Red Burgundy Bourgogne Rouge
+338|246|Chassagne Montrachet DO NOT USE! rw
+340|246|Vosne - Romanee DO NOT USE! rw
+341|246|Nuits-Saints Georges DO NOT USE! rw
+342|246|Pommard DO NOT USE! rw
+343|246|Volnay DO NOT USE! rw
+344|246|Rully/Mercury Rouge DO NOT USE! rw
+346|254|Alsace Gewurztraminer
+345|247|Beaujolais
+348|248|Pouilly-Fume
+347|248|Loire Muscadet
+349|248|Sancerre
+350|248|Touraine
+351|248|Alternative Loire Wines DO NOT USE! rw
+353|249|Cote Rotie/Cornas
+355|249|Chateauneuf du Pape
+354|249|Crozes Hermitage/St. Joseph
+356|249|Vacqueyras DO NOT USE! rw
+357|249|Gigondas
+358|249|Cotes du Rhone
+359|253|White Bordeaux
+360|23|South of France
+362|223|Germany Premium  Do NOT USE
+363|230|GREECE
+361|223|Germany Super Premium
+364|24|Barolo & Barberesco DO NOT USE! rw
+364|222|Barolo & Barberesco DO NOT USE! rw
+365|251|Barolo & Barbaresco
+367|251|Gattinara / Spanna DO NOT USE! rw
+366|251|Barbera Italian
+368|251|Dolcetto
+369|251|Nebbiolo DO NOT USE! rw
+370|252|Chianti DO NOT USE! rw
+370|222|Chianti DO NOT USE! rw
+371|252|Tuscan DO NOT USE! rw
+371|222|Tuscan DO NOT USE! rw
+372|252|Brunello di Montalcino DO NOT USE! rw
+372|222|Brunello di Montalcino DO NOT USE! rw
+374|252|Vino Nobile di Montepulciano DO NOT USE! rw
+374|222|Vino Nobile di Montepulciano DO NOT USE! rw
+373|252|Rosso di Montalcino DO NOT USE! rw
+373|222|Rosso di Montalcino DO NOT USE! rw
+376|24|Montepulciano d' Abruzzo
+375|2109|Vernaccia
+378|24|Amarone DO NOT USE! rw
+378|222|Amarone DO NOT USE! rw
+377|24|Southern Italian Reds
+379|2109|Orvieto
+382|2109|Alternative Italian Whites
+381|2109|Soave
+383|230|JAPAN PLUM
+385|25|SPAIN
+384|2110|PORTUGAL
+387|257|Late Harvest American
+386|256|Kosher  Sweet
+388|257|Premium Madeira
+390|257|French Sauternes
+389|257|Marsala
+392|257|Red Dessert
+391|258|Ruby Port
+394|257|Mead
+393|257|Fruit Based Dessert
+395|258|Value Port
+396|259|Sherry Imported
+397|259|Value Sherry
+398|230|NON-ALCOHOLIC WINES
+3101|27|Sparkling 1.5L
+3103|27|Franciacorta
+399|29|FRUIT WINES
+3100|27|Sparkling 187ml
+3104|260|French Champagne
+3102|27|Asti
+3105|27|Cava
+3108|230|APERITIF
+3107|27|Traditional Sparkling
+3106|27|Cremant
+3110|261|Box Wines
+3109|230|VERMOUTH
+3111|29|White Zinfandel / White Grenache  750ml
+3112|230|375ml Still Wine
+3113|2101|ARMAGNAC
+3115|2102|Grappa
+3114|2101|COGNAC
+3116|2101|Brandy Imported
+3117|2101|American Brandy
+3119|2103|Blackberry Brandy
+3120|2103|Cherry Brandy
+3121|2103|Coffee Brandy
+3118|2103|Apricot Brandy
+3122|2103|Ginger Brandy
+3124|2103|Raspberry Brandy
+3123|2103|Peach Brandy
+3126|2104|Blueberry Schnapps
+3125|2104|Schnapps Apple
+3129|2104|Lime Schnapps
+3127|2104|Buttershots Schnapps
+3128|2104|Cinnamon Schnapps
+3132|2104|Peach Schnapps
+3133|2104|Peppermint Schnapps
+3131|2104|Menthol Schnapps
+3130|2104|Margarita Schnapps
+3134|2104|Root Beer Schnapps
+3137|2104|Tropical Fruit Schnapps
+3136|2104|Strawberry Schnapps
+3135|2104|Spearmint Schnapps
+3138|2104|Vanilla Schnapps
+3139|2104|Wildberry Schnapps
+3140|295|Cordials Amaretto
+3141|295|Crs & Liqueurs Anisette
+3142|295|Apple
+3143|295|Apricot
+3144|295|Banana
+3145|295|Framboise / Black Raspberry
+3146|295|Cherry
+3147|295|Chocolate
+3148|295|Coconut
+3150|295|Cranberry
+3152|295|Creme de Cacao
+3153|295|Creme de Casis
+3149|295|Coffee Liqueur
+3151|295|Creme de Almond
+3154|295|Creme de Menthe
+3155|295|Curacao
+3156|295|Hazelnut
+3157|295|Melon
+3158|295|Ouzo
+3159|295|Rum Cordials
+3160|295|Sambuca
+3161|295|Sloe Gin
+3162|295|Strawberry
+3164|295|Unique Cordials
+3163|295|Triple Sec
+3167|2102|Eau de Vie
+3165|275|Large Size Varietals
+3166|2105|READY TO DRINK COCKTAILS
+3169|2101|Calvados
+3168|215|JUICES
+3170|2101|Hand Crafted American Brandy (DO NOT USE)
+3171|255|PINOT GRIGIO/GRIS NON ITALY
+3173|244|Domestic Sangiovese
+3172|237|PINOT BLANC
+3175|244|CABERNET FRANC
+3174|245|SYRAH   /    SHIRAZ
+3176|246|Aligote DO NOT USE! rw
+3177|246|Rully/Mercury Blanc DO NOT USE! rw
+3179|254|Alsace Pinot Blanc
+3178|247|Nouveau
+3181|254|Alsace Riesling
+3180|254|Alsace Pinot Gris
+3182|254|Alsace -- Alternative Varieties
+3184|250|Red Bordeaux - Other
+3185|253|White Bordeaux - Non-Chateau
+3183|249|Condrieu DO NOT USE!
+3186|23|Table Wines
+3188|24|Bardolino
+3190|2109|Gavi
+3189|24|Umbria / Marche Red
+3187|275|Chianti   1.5L and larger
+3191|2109|Trebbiano
+3192|230|Sake
+3193|256|Kosher Israel
+3194|256|Kosher Alternatives
+3195|257|French Muscat
+3196|28|Almaden 750ml & 1.5L
+3198|28|Carlo Rossi   1.5L & 3L
+3197|28|Almaden 3L & 4L
+3200|28|Gallo / Livingston Cellars    750ml & 1.5L
+3199|28|Carlo Rossi  4L
+3202|28|Inglenook  750ml & 1.5L
+3201|28|Gallo / Livingston Cellars  3L
+3203|28|Inglenook   3L & 4L
+3204|28|Paul Masson   750ml, 1L, 1.5L
+3205|28|Paul Masson   3L & 4L
+3206|28|Taylor California   750ml & 1.5L
+3208|28|Taylor Lake Country  750ml & 1.5L
+3207|28|Taylor California  3L & 4L
+3210|28|Other Table Wines  750ml & 1.5L
+3209|28|Taylor Lake Country  3L & 4L
+3211|28|Other  Table 3L & 4L
+3212|230|187ml Still Wine
+3213|2103|Pear Brandy
+3215|2104|Alternative Schnapps
+3214|2104|Cranberry Schnapps
+3216|295|Cream
+3217|295|Cognac Based
+3218|295|Fuzzy Navel
+3219|210|SMALL SIZES (375ml, 200ml, & 100ml)
+3221|293|Canadian Whisky (Small)
+3220|2107|Bourbon Whiskey (Small)
+3223|297|Rum (Small)
+3224|2106|Scotch Whisky (Small)
+3225|299|Tequila (Small)
+3226|2100|Vodka (Small)
+3222|294|Gin (Small)
+3227|2101|Cognac (Small)
+3229|2103|Flavored Brandy (Small)
+3228|2101|Brandy (Small)
+3230|295|Cordials (Small)
+3231|295|Cremes & Liqueurs (Small)
+3232|295|Schnapps (Small)
+3233|210|50ML Vodka
+3234|2111|COOLERS
+3235|2100|Vodka
+3237|294|Gin Imported
+3238|294|American Gin
+3236|2100|American Vodka
+3240|293|CANADIAN WHISKY
+3239|298|GRAIN ALCOHOL
+3241|2107|AMERICAN WHISKEY
+3242|2107|Bourbon, Small Batch
+3243|2107|Bourbon Blended
+3244|2107|RYE WHISKEY
+3245|297|RUM
+3246|299|TEQUILA
+3249|2106|IRISH WHISKEY
+3247|2106|SCOTCH WHISKY
+3248|2106|SCOTCH - SINGLE MALTS
+3250|275|Gamay Beaujolais  1.5Liter
+3251|271|German  1.5Liter
+3252|271|Dry Blush   1.5Liter
+3253|295|Other Nuts
+3254|2103|Rock and Rye
+3255|2103|Flavored Brandy Apple
+3256|271|Gewurztraminer  1.5Liter
+3257|271|Riesling  1.5Liter
+3259|270|Pinot Grigio  1.5Liter
+3258|271|Chenin Blanc 1.5Liter
+3260|271|Soave  1.5Liter
+3261|271|Trebbiano 1.5Liter
+3262|275|Sangiovese  1.5Liter
+3264|275|Zinfandel  1.5Liter
+3263|274|Syrah  1.5Liter
+3266|275|Valpolicella  1.5Liter
+3265|275|Montepulciano 1.5Liter
+3267|275|Alternative Reds  1.5Liter
+3268|210|Kosher Spirits
+3269|258|Tawny Port
+3272|252|Tuscany ( Super Tuscans )
+3270|257|American Muscat
+3271|2109|Arneis
+3273|257|Botrytis
+3275|212|Craft Breweries
+3276|213|Austria
+3277|213|Australia
+3278|213|Belgium
+3274|257|Other Muscat
+3280|213|China Beer
+3279|213|Canada
+3281|213|Czech Republic & Eastern Europe
+3282|213|Scandinavia
+3283|213|England
+3284|213|France
+3285|213|Germany
+3286|213|Greece Beer
+3288|213|India
+3287|213|Netherlands
+3289|213|Ireland
+3291|213|Italy
+3290|213|Israel & Middle East
+3292|213|Jamaica & Carribbean
+3293|213|Japan & Far East
+3294|213|Mexico
+3295|213|New Zealand
+3296|213|Phillippines
+3297|213|Poland
+3298|213|Portugal Beer
+3299|213|Scotland
+3300|213|Switzerland Beer
+3301|213|Vietnam & Southeast Asia
+3303|230|LEBANON
+3302|211|Kegs  - Imported (Pa Stores Only)
+3304|25|Rioja White
+3305|213|Singapore
+3306|244|Tempranillo
+3308|244|Barbera American
+3309|271|Italian Blends White 1.5L
+3307|244|RHONE BLEND
+3310|2111|Citrus Brews
+3311|243|MALBEC
+3312|244|PINOTAGE
+3314|246|Cote Chalonnaise ( Givry, Rully, Mercurey )
+3313|246|Beaune DO NOT USE! rw
+3315|237|MARSANNE
+3317|271|French Blends  1.5Liter
+3316|237|MOSCATO
+3318|275|Chianti Straw
+3319|275|Italian Blends Red 1.5L
+3320|275|French Blends 1.5Liter
+3321|230|Brazil Chenin Blanc
+3322|230|Eastern Europe Chenin Blanc
+3323|250|spare code do not use
+3324|2109|Italy Verdecchio
+3325|230|Chile Other White
+3329|210|Spirit Gift Set
+3326|276|French Champagne Lock Box
+3327|2111|Cider
+3331|2111|N/A's
+3332|212|Beer Gifts
+3330|211|Kegs 1/4 & BB - NB
+3328|230|Wine Gifts
+3333|215|Coke Cans
+3334|215|Pepsi Cans
+3337|215|RC Cans
+3336|215|7-Up Cans
+3335|215|Canada Dry Cans
+3338|215|Cotton Club Cans
+3339|215|Coke - 2 Liter
+3340|215|Pepsi - 2 Liter
+3341|215|Canada Dry - 2-Liter
+3343|215|RC - 2-Liter
+3342|215|7-Up - 2-Liter
+3344|215|Coke - 12NR/16NR/2ONR
+3345|215|Pepsi - 12NR/16NR/2ONR
+3346|215|Canada Dry - 12NR/16NR/2ONR
+3347|215|7-Up - 12NR/16NR/2ONR
+3349|215|Syrups
+3348|215|Coke - 10NR
+3351|215|7-Up - 10NR
+3350|215|Soda Mixers - 10NR
+3354|215|Canada Dry - 1-Liter
+3352|215|Soda Mixers - cans
+3353|215|Soda Mixers - 1L
+3355|215|7-Up - 1-Liter
+3356|215|Ginger Brews Singles
+3358|215|Teas (All Except 12 oz. Cans)
+3357|215|Ginger Brews Packs
+3361|218|Misc. Rings (20% Margin)
+3363|218|Headers
+3359|216|Gifts - DO NOT USE - OLD
+3360|229|Ice
+3365|215|Miscel Soda NR Packs
+3364|218|DC
+3362|214|Coupon - Liquor
+3366|211|Kegs 1/2 - NB
+3367|219|Coupon - Wine
+3369|221|Coupon - Misc
+3368|220|Coupon - Beer
+3370|211|AB Products
+3371|211|Coors Products
+3372|211|Miller Products
+3374|215|Egg Nog
+3373|211|Popular Priced Domestic
+3375|212|Lg Format Popular Priced Beer
+3376|217|Food/Snacks - (not in cheese box)
+3378|295|Lemons
+3377|256|Kosher American Varietal
+3380|213|Central and South America
+3379|212|+20oz Craft
+3382|213|Spain Beer
+3381|218|DEPOSITS
+3384|227|Tobacco
+3387|216|Cigar Acessories
+3385|218|Home Brewing Supplies
+3383|277|VIRGINIA
+3386|216|Gifts - DC - DO NOT USE - OLD
+3388|215|Sparkling Cider
+3389|215|Sport Drinks
+3390|215|Coffee Drinks
+3391|215|Miscel NR LS Soda
+3392|2110|Douro
+3393|2110|Dao
+3394|2110|Alentejo
+3395|226|Food - Cheese Box - (Cold)
+3396|228|Coffee
+3398|213|Latin America
+3397|225|Water
+3399|213|Africa
+3400|215|SODA- PLU SALES
+3402|217|Cookies
+3401|217|Candy Bars, Mints (register candy)
+3403|217|Crackers
+3404|217|Oils and Vinegar
+3405|217|Condiments
+3406|217|Mixed Drink Garnishments (Olives, onions, etc.)
+3408|217|Tea - (non-bottled/canned)
+3409|262|Disposable Glassware - DO NOT USE - OLD
+3407|217|Pasta and Sauce
+3410|262|Specialty Glassware - DO NOT USE - OLD
+3412|216|Wine Gifts (hanging) - DO NOT USE - OLD
+3411|216|Wine Gifts (shelf) - DO NOT USE - OLD
+3414|216|Books and Magazines - DO NOT USE - OLD
+3413|266|Gift Bags - DO NOT USE - OLD
+3416|217|Dressings / Marinades
+3415|217|Mustard
+3417|217|Hot Sauce
+3419|217|Spreads / Preserves
+3420|210|Spare Spirits
+3422|2108|SPIRIT MIXERS (Bloody Mary)
+3421|2108|SPIRIT MIXERS (All Other)
+3418|217|Salsa / Dip
+3423|2108|Other drink ingred. (Lime Juice, Cr. Coconut,etc.)
+3424|29|Beverage Wines 750ml
+3425|29|Beverage Wines 1.5L
+3426|217|Planter's Nuts
+3427|217|Gourmet Chips / Pretzels / Snack Mix
+3428|217|Non-Inventory Chips / Pretzels (Utz, Frito-Lay)
+3429|226|Soft Cheeses
+3430|226|Semi-Soft Cheese
+3431|226|Goat / Sheep Cheese
+3432|226|Smoked Cheese
+3434|226|Semi-Hard Cheeses
+3433|226|Blue Cheeses
+3435|226|Hard Cheeses
+3436|226|Pate / Meats
+3438|217|Gourmet Nuts
+3439|213|5- Liter Kegs - Imports
+3437|226|Other Cheese Box Food
+3440|262|Value-Priced Glassware - DO NOT USE - OLD
+3441|265|Wine Racks - DO NOT USE - OLD
+3442|217|Deleted Food Items
+3443|226|Smoked Fish
+3444|257|Moscato - Sparkling
+3446|257|Australian Muscat
+3445|257|Vin Santo
+3447|257|Other Imported Dessert
+3448|264|Wine Preservers - DO NOT USE - OLD
+3449|263|Corkscrews, Foilcutters, etc. - DO NOT USE - OLD
+3450|216|Spirits & Cocktails Accessories - DO NOT USE - OLD
+3451|267|Ice Buckets, Wine Chillers - DO NOT USE - OLD
+3452|216|Empty Boxes for resale - DO NOT USE - OLD
+3454|216|Wine Service Accessories - DO NOT USE - OLD
+3453|216|Beer Accessories
+3453|281|Beer Accessories
+3455|216|Wine Cellar Record-Keeping Items - DO NOT USE - OL
+3456|278|Miscellaneous Gift Supplies
+3457|23|Minervois
+3458|249|Rhone White ( ALL )
+3459|216|Empty Wine Baskets - DO NOT USE - OLD
+3460|224|Case/Matching Discounts - Wine
+3461|250|St. Estephe
+3462|250|Pauillac
+3464|250|Margaux
+3465|250|Pomerol & Satellite Appellations
+3463|250|St. Julien
+3466|250|St. Emilion & Satellite Appellations
+3467|250|Red Pessac
+3469|250|Haut Medoc
+3468|250|Fronsac
+3470|250|Medoc
+3471|27|Sparkling 375ml
+3472|277|NORTH CAROLINA
+3473|249|Hermitage
+3474|246|Puilly Fuisse DO NOT USE! rw
+3475|246|Macon/St. Veran DO NOT USE! rw
+3476|246|Cotes de Nuits Rouge DO NOT USE! rw
+3477|247|Cru Beaujolais
+3478|249|Cotes du Ventoux DO NOT USE! rw
+3479|246|Macon Villages / St. Veran
+3480|246|Pouilly Fuisse
+3481|246|Chablis
+3482|246|Cote Chalonnais/ Blanc
+3483|246|Beaune Blanc
+3484|246|Beaune Red
+3485|246|Pommard
+3486|246|Volnay
+3489|246|Vosne Romanee
+3487|246|Cote de Nuits Red
+3488|246|Nuits St Georges
+3490|246|Gevery Chambertin
+3491|248|Vouvray
+3494|249|Vacqueyras
+3492|248|Loire Reds
+3495|249|Lirac / Nimes
+3496|249|Cotes du Ventoux
+3497|23|Cahors
+3498|23|Corbieres
+3499|23|Provence
+3500|23|Other Southern France Red
+3501|238|Dry Rose
+3503|24|Sangiovese
+3502|29|White Zinfandel  / White Grenache 1.5L
+3504|24|Italian Varietals
+3505|24|Veneto
+3506|251|Piedmont ( Nebbiolo & Piedmont )
+3507|24|Amarone
+3508|24|Valpolicella & Bardolino
+3509|252|Rosso & Brunello di Montalcino
+3510|252|Vino Nobile & Rosso di Montepulciano
+3511|252|Chianti & Chianti Classico
+3512|252|Morellino
+3514|2109|Pinot Bianco
+3513|255|Pinot Grigio/Pinot Gris
+3515|2109|Est! Est!! Est!!!
+3516|230|Argenine Sangiovese
+3517|296|Spirit Mixers - 1% Alcohol
+3518|2109|Frascati
+3520|277|SOUTH CAROLINA
+3519|277|GEORGIA
+3521|24|Apulia ( Salice Salentino & Primativo )
+3522|24|Sicily & Sardinia
+3523|25|Rioja
+3525|25|Cataluna/Penedes
+3524|25|Ribera del duero
+3526|25|Navarra
+3529|278|Gift Bags
+3530|278|Gift Bags - Reusable
+3528|278|Gift Supplies
+3531|278|Gift Boxes
+3532|278|Old - Gift Supplies
+3533|279|Bottle Openers
+3533|281|Bottle Openers
+3534|279|Shelf - Bottle Stoppers
+3535|279|Wine Preservation
+3535|281|Wine Preservation
+3536|279|Shelf - Vacu-Pumps
+3537|279|Aerators
+3537|281|Aerators
+3538|279|Old - Wine Preserves
+3539|280|Cleaning & Organization
+3539|281|Cleaning & Organization
+3540|280|Shelf - Cleaning Supplies
+3541|280|Old - Cleaning Supplies
+3542|281|Glass Markers
+3543|281|Shelf - Charms/Tags/Clips
+3544|281|Pourers
+3545|281|Hanging - Other Misc Wine Accessories
+3546|281|Shelf - Other Misc Wine Accessories
+3547|281|Old - Misc Wine Accessories
+3548|282|Foilcutters
+3548|281|Foilcutters
+3549|282|Hanging - Spin Handle Opener
+3550|282|Wine Openers
+3550|281|Wine Openers
+3551|282|Shelf - Waiter's Corkscrew
+3552|282|Hanging - Wing Corkscrew
+3553|282|Shelf - Wing Corkscrew
+3554|282|Hanging - Ahh-So Opener
+3555|282|Hanging - Air Bottle Opener
+3557|282|Shelf - Lever Corkscrew
+3556|282|Shelf - Air Bottle Opener
+3558|282|Old - Bottle Openers
+3559|283|Drink Preparation
+3559|281|Drink Preparation
+3560|283|Flasks
+3560|281|Flasks
+3561|283|Shakers
+3561|281|Shakers
+3562|283|Shelf - Taps
+3563|283|Old - Bar Supplies
+3564|284|Cigar Accessories - Ashtrays/Humidors/Etc
+3564|281|Cigar Accessories - Ashtrays/Humidors/Etc
+3565|284|Shelf - Cigar Empty Boxes
+3566|284|Shelf - Humidors
+3567|284|Cigar Accessories - Lighters/Matches
+3567|281|Cigar Accessories - Lighters/Matches
+3568|285|Hanging - Educational
+3569|285|Reference Materials
+3569|281|Reference Materials
+3570|285|Shelf - Books/Magazines
+3571|285|Old - Educational
+3572|286|Hanging - Plate Accessories
+3573|286|Shelf - Plate Accessories
+3574|286|Serving/Entertaining
+3574|281|Serving/Entertaining
+3576|286|Shelf - Cheese Boards/Cutters
+3575|286|Shelf - Boards/Trays/Trivets/Btl Coasters
+3577|286|Hanging - Candles
+3578|286|Candles
+3578|281|Candles
+3579|286|Shelf - Napkin
+3580|286|Hanging - Other Home Decor
+3581|286|Novelty Gifts
+3581|278|Novelty Gifts
+3584|287|Shelf - Chillers
+3583|287|Hanging - Chillers
+3582|286|Old - Home Decor
+3585|287|Tubs & Buckets
+3585|281|Tubs & Buckets
+3586|287|Carriers
+3586|281|Carriers
+3588|287|Shelf - Keg Accessories
+3587|287|Temperature Control
+3587|281|Temperature Control
+3589|287|Old - Buckets, Chillers, Travel, Coole
+3590|288|Shelf - Wine Rack - Multi
+3591|288|Shelf - Wine Rack - Single
+3592|289|Wine Glassware
+3593|289|Misc Glassware
+3595|289|Decanters - Spirits
+3596|289|Decanters - Wine
+3597|289|Spirits Glassware
+3594|289|Non-Branded Beer Glassware
+3599|289|Disposable Glassware
+3598|289|Branded Beer Glassware
+3601|289|Buckets
+3600|289|Partyware
+3602|289|Sparkling & Champagne Glassware
+3603|288|Storage & Furniture
+3603|281|Storage & Furniture
+3605|288|Old - Wine Storage
+3606|244|Other Reds
+3609|2110|Vinho Verde
+3604|288|Floor - Wine Storage
+3604|281|Floor - Wine Storage
+3607|244|Grenache
+3610|2110|Portugal Other Whites
+3608|2110|Other Portugal Reds
+3611|2110|Portugal Rose
+3612|25|Priorat/Tarragona
+3614|25|Albarino
+3613|25|La Mancha/Other Spanish Reds
+3615|25|Rueda/Other Spanish Whites
+3616|230|Switzerland
+3635|218|Customer Consumables
+3623|25|Toro
+3636|218|MRO
+3637|218|Office Supplies
+3638|255|Pinot Gris Oregon
+3639|218|Store Supplies
+3640|213|Russian Beers
+3641|2108|SPIRIT MIXERS (Tropical)
+3642|23|Bandol
+3643|218|POS
+3645|257|Alsace Dessert Wine
+3646|257|German/ Austria Dessert Wine
+3644|257|Tokaji
+3647|257|Canada Ice Wine
+3648|257|Other Ice Wine
+3650|258|White Port
+3649|257|Value Madeira
+3651|258|Other Port
+3652|27|Red Sparkling
+3653|27|Australian Sparkling (non-red)
+3654|27|German Sekt
+3655|27|Prosecco
+3656|27|Charmat
+3657|2108|SPIRIT MIXERS (Margaritas)
+3658|28|3L Boxes
+3661|295|Absinthe
+3659|277|ARIZONA
+3660|297|Cachaca
+3663|218|Wine Tasting/Class - Taxable
+3662|2105|Ready to Drink Margarita
+3664|218|Wine Tasting/Class - Non Taxable
+3665|277|Mexican Wine
+3666|277|Canadian Wine Non-Dessert
+3668|210|50ML Tequila
+3667|210|50ML Rum
+3669|210|50ML Gin
+3671|210|50ML Whiskey American Bourbon
+3670|210|50ML Cordials Liqueurs
+3672|210|50ML Whiskey Canadian
+3673|210|50ML Whisky Scotch Blended
+3674|210|50ML Brandy
+3675|210|50ML Cordials Cream
+3676|210|50ML Cordials Coffee
+3677|210|50ML Cordials Schnapps
+3678|210|50ML Whiskey American
+3679|210|50ML Whisky Scotch Single Malt
+3680|210|50ML Whiskey Irish
+3681|210|50ML Cognac
+3683|258|Vintage Port
+3682|271|Moscato 1.5Liter
+3684|23|Other Southern France White
+3685|237|TORRONTES
+3686|2107|White Whiskey
+3687|2101|Pisco
+3688|2101|Spanish Brandy
+3689|295|Honey Cordials
+3690|295|Soju
+3691|277|TEXAS
+3692|21|Large Format Lock Box
+3693|277|NEW MEXICO
+3694|277|CONNECTICUT
+3697|2107|Whiskey - Honey
+3696|2107|Whiskey - Cinnamon
+3698|2107|Whiskey - Cherry
+3700|2107|Whiskey - Cinnamon (Small)
+3695|277|MINNESOTA
+3699|2107|Whiskey - Other Flavors
+3701|2107|Whiskey - Honey (Small)
+3702|2107|Whiskey - Cherry (Small)
+3703|2107|Whiskey - Other Flavors (Small)
+3704|210|50ML Whiskey - Cinnamon
+3705|210|50ML Whiskey - Honey
+3706|210|50ML Whiskey - Cherry
+3707|210|50ML Whiskey - Other
+3709|299|Mezcal Tequila
+3740|218|Generic Items
+3708|215|Miscel Soda Kegs
+3741|213|Kegs 1/4 & BB - Import
+3742|213|Kegs 1/2 - Import
+3744|212|Kegs 1/2 - Craft
+3743|212|Kegs 1/4 & BB - Craft
+3710|278|Holiday Bags & Boxes
+3745|2111|Kegs 1/4 & BB - Cider
+3746|2111|Kegs 1/2 - Cider
+3748|212|5- Liter Kegs - Craft
+3749|295|Elderflower
+3747|211|5- Liter Kegs - NB
+3750|295|Flavor Creams
+3751|295|Ginger
+3752|295|Orange
+3753|2107|Whiskey - Maple
+3754|2107|Whiskey - Spice
+3756|2108|Sweeteners (Agave & Sugar)
+3757|2108|Bitters
+3755|2107|Whiskey - Apple
+3759|2108|SPIRIT MIXERS (Martini)
+3758|2108|Gourmet Soda Mixers
+3760|2108|SPIRIT MIXERS (Mojito)
+3761|2108|SPIRIT MIXERS (Sweet and Sour)
+3763|277|MISSOURI
+3764|2106|Scotch - Single Malts - Highlands
+3762|277|MASSACHUSETTS
+3765|2106|Scotch - Single Malts - Lowlands/Campbeltown
+3766|2106|Scotch - Single Malts - Speyside
+3767|2106|Scotch - Single Malts - Islay/Islands
+3768|2106|Scotch - Single Malts - Rest of World
+3769|277|Midwest
+3770|277|Northeast
+000001|c0020|Category
+151204|c0020|Old World Wine
+000003|000002|Wine Varietal/Type
+000005|000001|Champagne & Sparkling Wine
+41520|c0010|Kegs
+41513|c0010|Big Breweries
+516520|c0010|Import Beer
+000004|000003|Chardonnay
+232319|c0030|Whiskey, Whisky & Scotch
+12523|c0020|New World Wine
+000002|000001|White Wine
+516516|c0010|Craft Beer
+000006|000005|Wine Varietal/Type
+000007|000006|Asti
+000008|000003|Sauvignon Blanc
+000009|000001|Red Wine
+000010|000009|Wine Varietal/Type
+000011|000010|Cabernet Sauvignon
+000012|000010|Red Blend
+000013|000003|White Blend
+000014|000003|Gewurztraminer
+000015|000003|Torrontes
+000016|000003|Retsina
+000017|000003|Chenin Blanc
+000018|000010|Pinot Noir
+000019|000010|Merlot
+000020|000010|Syrah/Shiraz
+000021|000003|Semillon
+000022|000006|Cava
+000023|000003|Riesling
+000024|000001|Dessert & Fortified Wine
+000025|000024|Wine Varietal/Type
+000026|000025|Riesling
+000027|000003|Roussanne
+000028|000025|White Blend Dessert Wine
+000029|000003|Rhone Blend
+000030|000003|Melon de Bourgogne
+000031|000003|Furmint
+000032|000003|Vermentino
+000033|000003|Rkatsiteli
+000034|000003|Godello
+000035|000001|Fruit Wine
+000036|000035|Wine Varietal/Type
+000037|000036|Fruit Blends
+000038|000003|Tsolikouri
+000039|000025|Sauternes
+000040|000003|Savatiano
+000041|000003|Viognier
+000042|000003|Albarino
+000043|000003|Gruner Veltliner
+000044|000006|Sparkling Wine
+000045|000044|Style
+000046|000045|Extra Brut
+000047|000003|Arneis
+000048|000003|Aligote
+000049|000003|Malvasia
+000050|000003|Muscat/Moscato
+000051|000010|Mourvedre/Monastrell
+000052|000003|Pinot Grigio/Pinot Gris
+000053|000025|Port
+000054|000053|Style
+000055|000054|White Port
+000057|000010|Cabernet Franc
+000058|000010|Bordeaux Blend
+000056|000025|Viognier
+000059|000010|Dolcetto
+000060|000010|Carmenere
+000061|000010|Zinfandel
+000062|000010|Primitivo
+000063|000001|Rose & Blush Wine
+000064|000063|Wine Varietal/Type
+000065|000064|Zinfandel
+000066|000010|Malbec
+000067|000010|Saperavi
+000068|000010|Bonarda
+000069|000010|Busuioaca de Bohotin
+000070|000010|Rhone Blend
+000071|000010|Sangiovese
+000072|000010|Plavac Mali
+000073|000010|Crljenak Kastelanski
+000074|000010|Tempranillo
+000075|000064|Rose Blend
+000076|000010|Grenache
+000077|000036|Sangria
+000078|000010|Petite Sirah
+000079|000010|Petit Verdot
+000080|000010|Blaufrankisch
+000081|000064|Sangiovese
+000082|000064|Pinot Noir
+000083|000010|Pinot Meunier
+000084|000006|Flavored Sparkling Wine
+000085|000064|Cabernet Sauvignon
+000086|000025|Mead
+000087|000064|White Zinfandel
+000088|000025|Spiced Wine
+000089|000025|Fruit-Based Dessert Wine
+000090|000003|Villard Blanc
+000091|000064|Merlot
+000092|000054|Ruby Port
+000093|000025|Honey Wine
+000094|000025|Ice Wine
+000095|000045|Brut
+000096|000045|Blanc de Noirs
+000097|000003|Pinot Blanc
+000098|000025|Red Blend Dessert Wine
+000099|000003|Chambourcin
+000101|000003|Welschriesling
+000100|000010|Blauer Zweigelt
+000102|000010|Gamay
+000103|000003|Bordeaux Blend
+000104|000003|Moschofilero/Fileri
+000105|000010|Agiorgitiko
+000106|000003|Assyrtiko
+000107|000003|Roditis
+000108|000025|Muscat/Muscadine
+000110|000003|Vilana
+000109|000010|Xynomavro
+000111|000064|Roditis
+000112|000010|Xinomavro
+000113|000003|Moscofilero
+000114|000064|Nebbiolo
+000115|000003|Muller-Thurgau/Rivaner
+000116|000003|Huxelrebe
+000117|000010|Dornfelder
+000118|000003|Scheurebe
+000119|000010|Nebbiolo
+000120|000010|Barbera
+000121|000010|Montepulciano
+000122|000003|Vernaccia
+000123|000010|Aglianico
+000124|000010|Gaglioppo
+000125|000010|Negroamaro
+000126|000010|Piedirosso
+000127|000010|Nero d'Avola
+000128|000003|Trebbiano/Ugni Blanc
+000129|000003|Greco di Tufo
+000130|000003|Turbiana
+000131|000003|Falanghina
+000132|000003|Friulano
+000133|000003|Inzolia
+000134|000003|Catarratto
+000135|000003|Fiano
+000136|000003|Pecorino
+000137|000003|Ribolla Gialla
+000138|000003|Cortese
+000139|000003|Coda di Volpe
+000140|000003|Garganega
+000141|000003|Carricante
+000142|000003|Albana di Romagna
+000144|000001|Sake & Plum Wine
+000143|000003|Roscetto
+000145|000144|Wine Varietal/Type
+000146|000145|Plum Wine
+000147|000010|Touriga Nacional
+000148|000025|Gewurztraminer
+000150|000006|Muscat/Moscato
+000149|000025|Marsala
+000151|000150|Style
+000152|000151|d'Asti
+000153|000025|Vermouth
+000154|000025|Madeira
+000155|000025|Bordeaux Blend
+000156|000025|Chocolate Wine
+000157|000054|Late Bottle Vintage Port
+000158|000054|Character/Reserve Port
+000159|000054|Tawny Port
+000160|000025|Sherry
+000161|000064|Syrah/Shiraz
+000162|000006|Champagne
+000163|000162|Style
+000164|000163|Brut
+000165|000163|Blanc de Blancs
+000166|000045|Rose
+000167|000022|Style
+000168|000167|Brut
+000169|000006|Prosecco
+000170|000169|Style
+000172|000170|Brut
+000171|000170|Extra Dry
+000173|000045|Blanc de Blancs
+000174|000163|Rose
+000175|000045|Extra Dry
+000178|000163|Blanc de Noirs
+000177|000163|Demi-Sec
+000176|000167|Extra Dry
+000179|000025|White Blends
+000180|000167|Semi Seco
+000181|000167|Rose
+000182|000167|Blanc de Blancs
+000183|000025|Aperitif
+000185|000006|Sparkling Red Wine
+000186|000185|Style
+000184|000045|Demi-Sec
+000187|000186|Rose
+000188|000045|Lambrussco
+000189|000186|Brut
+000190|000064|Grenache
+000191|000010|Sagrantino
+000192|000145|Sake
+000193|000010|Pinotage
+000194|000010|Corvina
+000196|000025|Grasa de Cotnari
+000195|000064|Tempranillo
+000197|000003|Macabeo
+000198|000003|Verdejo
+000199|000003|Viura
+000200|000064|Mourvedre/Monastrell
+000201|000003|Marsanne
+000202|000003|Picpoul
+000203|000025|Tokaji
+000204|000151|Rose
+000207|000206|Wine Varietal/Type
+000208|000207|Gift Sets
+000205|000003|Verdicchio
+000209|000207|Gift Baskets
+000210|000064|Bordeaux Blend
+000206|000001|Gift Baskets & Sets
+000211|000010|Touriga Franca
+000212|000054|Vintage Port
+000213|000025|Vin Santo
+000214|000025|Tannat
+000215|000025|Torrontes
+000216|000025|Chenin Blanc
+000217|000025|Bukettraube
+000218|000006|Bordeaux Blend
+000220|000010|Tannat
+000221|000064|Rhone Blend
+000222|000064|Malbec
+000223|000064|Pinotage
+000224|000064|Vinho Verde
+000225|000064|Negroamaro
+000226|000064|Cabernet Franc
+000227|000064|Schiava/Trollinger
+000228|000064|Zweigelt
+000229|000064|Cinsault
+000230|000064|Blauer Zweigelt
+000231|000010|Lagrein
+000232|000010|Refosco
+000233|000010|Teroldego
+000234|000010|Foja Tonda
+000236|000010|Cannonau
+000235|000010|Carignan
+000237|000010|Monica
+000238|000010|Graciano
+000239|000010|Feteasca Neagra
+000240|000010|Portugieser
+000242|000010|Frappato
+000241|000010|Vranac
+000243|000010|Castelao
+000244|000003|Vinho Verde
+000245|000003|Alvarinho
+000246|000010|Alicante Bouschet
+000247|000010|Mencia
+000248|000010|Bobal
+000250|000025|Trockenbeerenauslese (TBA)
+000249|000025|Pinot Grigio/Pinot Gris
+000251|000054|Port Blend
+000252|000054|Rose Port
+000253|000186|Shiraz
+000254|000186|Brechetto
+000255|000186|Lambrussco
+000256|000010|Malvasia
+000258|000163|Extra Dry
+000257|000170|Rose
+000259|000003|Agave
+000260|000010|Norton
+000261|c0020|Country & State
+000264|000263|Wine Region
+000262|000261|California
+000265|000264|South Eastern Australia
+000263|000261|Australia
+000266|000262|Wine Region
+000267|000266|Sonoma County
+000268|000267|Appellation
+000269|000268|Russian River Valley
+000270|000261|France
+000271|000261|Chile
+000272|000261|Alabama
+000273|000271|Wine Region
+000274|000273|Rapel Valley
+000275|000273|Central Valley
+000276|000270|Wine Region
+000277|000276|Vins de Pays d'Oc
+000278|000261|Italy
+000280|000261|Washington
+000279|000261|Argentina
+000281|000280|Wine Region
+000282|000281|Columbia Valley
+000283|000279|Wine Region
+000284|000283|Mendoza
+000285|000266|Napa Valley
+000286|000266|Monterey
+000287|000286|Appellation
+000288|000287|Arroyo Seco
+000289|000261|South Africa
+000290|000289|Wine Region
+000291|000290|Western Cape
+000292|000273|Casablanca Valley
+000293|000278|Wine Region
+000294|000293|Veneto
+000295|000261|Texas
+000296|000261|Idaho
+000297|000276|Loire
+000298|000261|New Zealand
+000299|000298|Wine Region
+000300|000299|Marlborough
+000301|000273|Bio Bio Valley
+000302|000266|North Coast
+000303|000276|Bordeaux
+000304|000303|Appellation
+000305|000304|White Bordeaux/Entre-Deux-Mers
+000306|000273|Aconcagua Valley
+000307|000282|Appellation
+000308|000307|Walla Walla
+000309|000266|Lodi
+000311|000261|Greece
+000310|000261|Global
+000313|000312|Vouvray
+000312|000297|Appellation
+000314|000261|Portugal
+000315|000261|Spain
+000316|000266|Central Coast
+000317|000316|Appellation
+000318|000317|Paso Robles
+000319|000293|Delle Venezie
+000320|000266|Carneros
+000321|000261|Slovenia
+000322|000304|Bordeaux/Bordeaux Superieur
+000323|000294|Appellation
+000324|000323|Bardolino
+000325|000290|Robertson
+000326|000268|Knights Valley
+000327|000264|Eden Valley
+000328|000261|Algeria
+000329|000264|Western Australia
+000330|000329|Appellation
+000331|000330|Margaret River
+000332|000266|Santa Barbara
+000333|000261|Canada
+000334|000333|Wine Region
+000335|000334|British Columbia
+000336|000335|Appellation
+000337|000336|Okanagan Valley
+000338|000273|Maipo Valley
+000339|000332|Appellation
+000340|000339|Santa Rita Hills
+000341|000268|Sonoma Coast
+000342|000264|McLaren Vale
+000343|000339|Santa Maria Valley
+000344|000261|Brazil
+000345|000261|Oregon
+000346|000345|Wine Region
+000347|000346|Willamette Valley
+000348|000266|Sierra Foothills
+000349|000317|Edna Valley
+000350|000285|Appellation
+000351|000350|Spring Mountain
+000352|000268|Alexander Valley
+000353|000348|Appellation
+000354|000353|Amador County
+000355|000315|Wine Region
+000356|000355|Navarra
+000357|000293|Piedmont
+000358|000357|Appellation
+000359|000358|Langhe
+000360|000264|Victoria
+000361|000360|Appellation
+000362|000361|Yarra Valley
+000363|000268|Dry Creek Valley
+000364|000268|Sonoma Valley
+000365|000268|Chalk Hill
+000366|000268|Sonoma Mountain
+000367|000317|Santa Cruz Mountains
+000368|000284|Appellation
+000369|000368|Lujan de Cuyo
+000370|000266|Mendocino
+000371|000370|Appellation
+000372|000371|Anderson Valley
+000373|000283|Patagonia
+000374|000290|Stellenbosch
+000375|000264|Limestone Coast
+000376|000287|Santa Lucia Highlands
+000377|000261|New Mexico
+000378|000299|Hawkes Bay
+000379|000299|Nelson
+000380|000355|Rias Baixas
+000381|000293|Sicily
+000382|000281|Yakima Valley
+000383|000261|Virginia
+000384|000261|Georgia (State)
+000385|000273|Maule Valley
+000386|000350|Oak Knoll
+000387|000261|Romania
+000388|000387|Wine Region
+000389|000388|Transylvania
+000390|000264|Barossa
+000391|000347|Appellation
+000392|000391|Eola-Amity Hills
+000393|000281|Rattlesnake Hills
+000394|000350|Yountville
+000395|000307|Red Mountain
+000396|000391|Chehalem Mountains
+000397|000350|Oakville
+000398|000261|Bulgaria
+000399|000307|Wahluke Slope
+000401|000346|Rogue Valley
+000400|000350|Atlas Peak
+000402|000350|Rutherford
+000403|000273|Colchagua Valley
+000404|000346|Umpqua Valley
+000405|000261|Moldova
+000406|000307|Horse Heaven Hills
+000407|000276|Languedoc
+000408|000273|Curico Valley
+000410|000264|New South Wales
+000411|000276|Southwest France
+000409|000261|New York
+000412|000410|Appellation
+000413|000412|Hunter Valley
+000414|000264|Clare Valley
+000415|000293|Molise
+000416|000350|Mount Veeder
+000417|000293|Umbria
+000418|000261|Germany
+000419|000261|Nevada
+000420|000391|Dundee Hills
+000421|000261|China
+000422|000317|York Mountain
+000423|000339|Santa Ynez
+000425|000299|Martinborough
+000424|000266|Lake County
+000426|000350|St. Helena
+000427|000353|Placer County
+000429|000353|El Dorado
+000428|000293|Trentino
+000430|000312|Chinon
+000431|000290|Paarl
+000433|000432|Pfalz
+000432|000418|Wine Region
+000434|000261|Israel
+000435|000293|Alto-Adige
+000436|000261|Serbia
+000438|000261|North Carolina
+000439|000432|Nahe
+000440|000432|Mosel
+000441|000391|Yamhill-Carlton
+000437|000391|McMinnville
+000442|000407|Appellation
+000443|000442|Cotes du Roussillon
+000444|000361|Rutherglen
+000445|000261|Georgia (Republic)
+000446|000261|Hungary
+000447|000446|Wine Region
+000448|000447|Tokaji
+000449|000261|Hawaii
+000450|000287|San Antonio Valley
+000451|000264|Padthaway
+000452|000311|Wine Region
+000453|000452|Nemea
+000454|000261|Connecticut
+000455|000264|Adelaide Hills
+000456|000261|Indiana
+000457|000261|Louisiana
+000458|000314|Wine Region
+000460|000355|Jerez
+000459|000458|Alentejo
+000461|000350|Stags Leap District
+000462|000350|Howell Mountain
+000463|000350|Diamond Mountain
+000464|000317|San Luis Obispo
+000465|000261|Uruguay
+000466|000293|Tuscany
+000467|000466|Appellation
+000468|000467|Toscana
+000469|000266|Suisun Valley
+000470|000342|Appellation
+000471|000470|Clarendon
+000472|000361|Heathcote
+000473|000283|La Rioja
+000476|000442|Minervois
+000475|000264|Langhorne Creek
+000474|000264|Coonawarra
+000477|000355|La Mancha
+000480|000261|New Jersey
+000478|000261|Montenegro
+000479|000261|Arizona
+000481|000266|Ventura County
+000482|000293|Friuli-Venezia Giulia
+000483|000261|Croatia
+000484|000261|Armenia
+000485|000261|South Carolina
+000486|000293|Lombardy
+000487|000261|Russia
+000489|000467|Chianti
+000488|000467|Rosso di Montepulciano
+000490|000268|Green Valley
+000491|000264|Tazmania
+000493|000261|Switzerland
+000492|000299|Central Otago
+000494|000293|Lazio
+000496|000432|Franken
+000495|000293|Valdadige
+000497|000261|Maryland
+000498|000261|Austria
+000499|000261|Pennsylvania
+000500|000409|Wine Region
+000502|000500|Long Island
+000501|000500|Finger Lakes
+000503|000261|Massachusetts
+000505|000498|Wine Region
+000506|000505|Kremstal
+000507|000505|Wachau
+000504|000261|Florida
+000508|000276|Burgundy
+000510|000509|Vougeot
+000509|000508|Appellation
+000511|000509|Cote Chalonnaise
+000512|000509|Cote de Beaune
+000514|000509|Meursault
+000513|000509|Cremant de Bourgogne
+000515|000509|Aloxe-Corton
+000516|000509|Puligny-Montrachet
+000517|000509|Chassagne-Montrachet
+000518|000509|Macon-Villages
+000519|000276|Beaujolais-Villages
+000520|000276|Beaujolais
+000521|000519|Appellation
+000522|000521|Beaujolais-Villages
+000523|000276|Alsace
+000524|000312|Pouilly-Fume
+000525|000312|Muscadet
+000526|000312|Sancerre
+000527|000312|Touraine
+000528|000312|Anjou
+000529|000312|Savennieres
+000530|000276|Rhône
+000531|000530|Appellation
+000533|000531|Cornas
+000532|000531|Cote Rotie
+000534|000531|Chateauneuf-du-Pape
+000535|000531|Crozes-Hermitage
+000536|000531|Saint-Joseph
+000538|000531|Gigondas
+000539|000531|Cotes du Rhone
+000537|000531|Hermitage
+000540|000531|Cotes du Rhone-Villages
+000541|000531|Cotes du Ventoux
+000543|000304|Cotes de Castillon
+000542|000304|Pessac-Leognan
+000544|000452|Mantinia
+000546|000452|Crete
+000545|000452|Patras
+000547|000452|Santorini
+000548|000452|Naoussa
+000549|000452|Samos
+000550|000261|Cyprus
+000551|000261|Turkey
+000552|000440|Appellation
+000554|000432|Rheinhessen
+000555|000554|Appellation
+000553|000552|Graach
+000557|000552|Bernkastel
+000556|000555|Nierstein
+000559|000552|Piesport
+000558|000552|Wehlen
+000560|000552|Erden
+000562|000561|Appellation
+000561|000432|Rheingau
+000563|000562|Hattenheim
+000564|000358|Barbaresco
+000565|000358|Barolo
+000566|000358|Barbera d'Alba
+000568|000358|Barbera DOC
+000567|000358|Barbera d'Asti
+000571|000293|Abruzzo
+000569|000358|Asti
+000570|000358|Dolcetto d'Alba
+000572|000571|Appellation
+000573|000572|Montepulciano d'Abruzzo
+000574|000467|Vernaccia di San Gimignano
+000575|000494|Appellation
+000576|000575|Castelli Romani
+000577|000293|Campagnia
+000578|000293|Basilicata
+000579|000578|Appellation
+000580|000579|Aglianico del Vulture
+000582|000581|Lacryma Christi del Vesuvio
+000583|000293|Apulia
+000584|000583|Appellation
+000585|000584|Salice Salentino
+000586|000417|Appellation
+000581|000577|Appellation
+000587|000586|Orvieto
+000588|000293|Sardinia
+000589|000581|Greco di Tufo
+000590|000581|Fiano di Avellino
+000591|000293|Marches
+000592|000323|Soave
+000593|000323|Soave Classico
+000594|000261|Japan
+000595|000355|Costers del Segre
+000596|000355|Carinena
+000597|000355|Rioja
+000598|000355|Campo de Borja
+000599|000458|Douro
+000601|000304|Sauternes
+000600|000358|Moscato d'Asti
+000602|000442|Banyuls
+000603|000355|Priorat
+000604|000261|Netherlands
+000606|000261|Poland
+000605|000261|Ireland
+000608|000261|Michigan
+000609|000261|England
+000607|000261|Colorado
+000611|000261|Wisconsin
+000610|000261|Montana
+000612|000261|Denmark
+000614|000355|Montilla-Morales
+000615|000261|Missouri
+000613|000261|New Hampshire
+000616|000261|Mexico
+000618|000355|Valencia
+000617|000261|Venezuela
+000620|000619|Appellation
+000619|000276|Champagne
+000621|000620|Champagne
+000622|000355|Penedes
+000623|000355|Cava
+000624|000486|Appellation
+000625|000624|Franciacorta
+000626|000323|Prosecco
+000627|000620|Champagne Grand Cru
+000628|000261|Czech Republic
+000630|000261|Finland
+000629|000261|Scotland
+000631|000411|Appellation
+000632|000631|Gascogne
+000633|000276|Provence
+000634|000523|Appellation
+000635|000634|Cremant d'Alsace
+000637|000412|Canberra
+000638|000261|India
+000636|000509|Pouilly-Fuisse
+000639|000531|Costieres de Nimes
+000640|000631|Bergerac
+000641|000304|Premieres Cotes de Bordeaux
+000642|000304|Moulis
+000643|000304|Cotes de Bourg
+000644|000304|Fronsac
+000645|000304|Cotes de Blaye
+000646|000631|Buzet
+000648|000304|Haut-Medoc
+000647|000304|Lussac-Saint-Emilion
+000649|000304|Cadillac
+000651|000358|Gavi
+000652|000591|Appellation
+000653|000652|Rosso Piceno
+000654|000586|Montefalco Sagrantino
+000655|000467|Chianti Classico
+000656|000467|Chianti Colli Senesi
+000657|000434|Wine Region
+000658|000657|Galilee
+000659|000657|Judean Hills
+000660|000355|Montsant
+000661|000304|Medoc
+000662|000323|Valpolicella
+000663|000531|Muscat de Beaumes-de-Venise
+000664|000442|Muscat de Rivesaltes
+000665|000458|Dao
+000666|000467|Bolgheri
+000667|000467|Carmignano
+000668|000358|Roero Arneis
+000669|000261|Lebanon
+000670|000669|Wine Region
+000671|000670|Bekaa Valley
+000672|000355|Calatayud
+000673|000355|Toro
+000674|000355|Ribera del Duero
+000675|000355|Valdepenas
+000676|000575|Frascati
+000677|000631|Cahors
+000678|000283|San Juan
+000679|000509|Givry
+000680|000509|Mercurey
+000681|000442|Picpoul de Pinet
+000682|000368|San Rafael
+000683|000261|Peru
+000684|000442|Corbieres
+000685|000652|Verdicchio
+000687|000261|Korea
+000686|000312|Coteaux du Layon
+000688|000531|Condrieu
+000689|000304|Saint-Estephe
+000690|000304|Pauillac
+000691|000304|Saint-Julien
+000693|000304|Pomerol
+000692|000304|Margaux
+000695|000304|Saint-Emilion
+000694|000304|Lalande-de-Pomerol
+000696|000304|Montagne-Saint-Emilion
+000698|000304|Saint-Georges-Saint-Emilion
+000697|000304|Puisseguin-Saint-Emilion
+000699|000521|Moulin-a-Vent
+000705|000521|Chiroubles
+000706|000509|Saint-Veran
+000707|000509|Chablis
+000708|000509|Montagny
+000709|000509|Rully
+000711|000509|Ladoix
+000710|000509|Saint-Aubin
+000712|000509|Hautes-Cotes de Beaune
+000713|000509|Pernand-Vergelesses
+000715|000509|Santenay
+000716|000509|Chambolle-Musigny
+000717|000509|Gevrey-Chambertin
+000714|000509|Savigny-Les-Beaune
+000718|000509|Pommard
+000719|000509|Volnay
+000720|000509|Vosne-Romanee
+000721|000509|Echezeaux
+000722|000509|Nuits-Saint-Georges
+000723|000509|Morey-Saint-Denis
+000725|000509|Hautes-Cotes de Nuits
+000724|000509|Marsannay
+000726|000312|Saumur-Champigny
+000727|000531|Vacqueyras
+000728|000531|Lirac
+000729|000631|Madiran
+000730|000631|Limoux
+000731|000442|Collioure
+000732|000531|Tavel
+000733|000355|Yecla
+000734|000633|Appellation
+000735|000734|Bandol
+000736|000355|Tarragona
+000738|000467|Chianti Rufina
+000737|000355|Alicante
+000739|000358|Gattinara
+000740|000323|Amarone
+000741|000323|Valpolicella Classico
+000742|000467|Brunello di Montalcino
+000743|000467|Rosso di Montalcino
+000744|000467|Vino Nobile di Montepulciano
+000745|000467|Chianti Colli Fiorentini
+000747|000482|Appellation
+000746|000467|Morellino di Scansano
+000748|000747|Colli Orientali
+000749|000747|Isonzo
+000750|000586|Est! Est!! Est!!!
+000751|000584|Copertino
+000752|000261|Morocco
+000753|000458|Vinho Verde
+000754|000355|Terra Alta
+000755|000355|Catalunya
+000756|000355|Jumilla
+000758|000355|Rueda
+000757|000355|Bierzo
+000759|000355|Malaga
+000760|000552|Urzig
+000761|000334|Ontario
+000762|000761|Appellation
+000763|000762|Niagara Peninsula
+000764|000283|Salta
+000765|000261|Minnesota
+000766|000261|Illinois
+000767|000261|Kansas
+000768|000261|Rhode Island
+000769|c0030|Category
+000771|000770|Spirits Type
+000770|000769|Brandy & Cognac
+000772|000771|Armagnac
+000773|000769|Bourbon
+000774|000771|Cognac
+000776|000771|Grappa
+000775|000771|Brandy
+000777|000771|Flavored Brandy
+000778|000769|Liqueurs/Cordials/Schnapps
+000779|000778|Spirits Type
+000780|000779|Nuts & Amaretto
+000781|000779|Fruit
+000782|000781|Style
+000783|000782|Apple
+000784|000782|Blueberry
+000785|000779|Chocolate, Sweets & Candy
+000787|000786|Butterscotch
+000786|000785|Style
+000788|000779|Herbal & Spice
+000789|000788|Style
+000791|000769|Ready to Drink
+000790|000789|Cinnamon
+000792|000791|Spirits Type
+000793|000792|Margaritas
+000794|000789|Mint
+000795|000786|Root Beer
+000796|000779|Fruit Blends
+000797|000782|Strawberry
+000799|000782|Pineapple
+000798|000779|Citrus & Triple Sec
+000800|000782|Blackberry
+000801|000798|Style
+000802|000801|Orange
+000804|000789|Vanilla
+000805|000789|Anise
+000806|000771|Calvados
+000803|000782|Cherry
+000807|000782|Peach & Apricot
+000808|000782|Banana
+000809|000782|Raspberry
+000811|000779|Coffee
+000810|000786|Chocolate
+000812|000786|Caramel
+000813|000782|Cranberry
+000814|000779|Cream
+000815|000782|Cassis
+000816|000782|Melon
+000817|000789|Ouzo
+000818|000789|Sambuca
+000819|000782|Sloe Berry
+000820|000801|Triple Sec
+000822|000779|Unique Flavors
+000821|000789|Herbal Blend
+000823|000782|Pomegranate
+000824|000769|Tequila
+000825|000824|Spirits Type
+000827|000782|Lychee
+000829|000789|Pumpkin Spice
+000828|000786|Maple
+000826|000825|Blanco/Silver
+000830|000786|Honey
+000831|000801|Lemon
+000832|000789|Floral
+000833|000782|Mango
+000834|000782|Raisin
+000835|000786|Toffee
+000836|000789|Ginger
+000838|000782|Rhubarb
+000837|000782|Pear
+000839|000782|Huckleberry
+000840|000769|Canadian Whisky
+000841|000769|American Whiskey
+000842|000841|Spirits Type
+000843|000842|Whiskey
+000844|000782|Cucumber
+000845|000769|Soju
+000847|000786|Whipped Cream
+000846|000779|Coconut
+000848|000801|Lime
+000849|000782|Grape
+000850|000792|Chocolate & Cream Drinks
+000852|000792|Daiquiris & Rum Drinks
+000851|000792|Tea
+000853|000792|Manhattans & Bourbon Drinks
+000854|000792|Cosmopolitan
+000855|000792|Martinis
+000856|000792|Shots
+000857|000792|Cola Drinks
+000858|000792|Mojito
+000859|000792|Lemonades & Citrus Drinks
+000860|000792|Unique Cocktails
+000861|000792|Bloody Marys
+000862|000771|Eau de Vie
+000863|000782|Watermelon
+000864|000769|Irish Whiskey
+000865|000773|Spirits Type
+000866|000865|Small Batch Bourbon
+000867|000842|Tennessee Whiskey
+000868|000842|Rye Whiskey
+000869|000769|White Whiskey/Moonshine
+000870|000769|Gin
+000871|000769|Rum
+000872|000871|Spirits Type
+000873|000872|Dark Rum
+000874|000872|Silver Rum
+000875|000872|Flavored Rum
+000876|000875|Style
+000877|000876|Coconut
+000878|000872|Spiced Rum
+000879|000872|Gold Rum
+000880|000872|Aged Rum
+000881|000876|Apple
+000882|000872|Variety Packs
+000884|000876|Maple
+000885|000769|Scotch
+000886|000885|Spirits Type
+000883|000876|Raspberry
+000887|000886|Single Malt
+000888|000886|Blended Scotch
+000889|000769|Mezcal
+000890|000825|Anejo
+000891|000825|Reposado
+000892|000825|Gold
+000893|000825|Flavored Tequila
+000894|000893|Style
+000895|000894|Strawberry
+000896|000894|Lime & Citrus
+000897|000769|Vodka
+000898|000897|Spirits Type
+000899|000898|Vodka
+000900|000898|Flavored Vodka
+000901|000900|Style
+000902|000901|Orange
+000903|000901|Citrus
+000904|000901|Grape
+000905|000901|Peach
+000906|000901|Coconut
+000907|000901|Mixed Fruit
+000908|000901|Raspberry
+000909|000901|Sloe Berry
+000910|000901|Hot & Spicy
+000911|000898|Variety Packs
+000912|000901|Pineapple
+000914|000901|Nut
+000913|000901|Herb & Spice
+000915|000782|Elderberry
+000916|000789|Absinthe
+000917|000901|Vanilla
+000918|000901|Strawberry
+000919|000901|Apple
+000920|000901|Blackberry
+000921|000901|Passionfruit
+000922|000901|Cookie, Cake & Brownie
+000923|000901|Whipped Cream
+000924|000901|Candy & Ice Cream
+000927|000901|Acai
+000925|000901|Fruit Punch
+000926|000901|Lemonade
+000928|000901|Pomegranate
+000930|000901|Ginger
+000929|000901|Chocolate
+000932|000901|Cinnamon
+000931|000901|Huckleberry
+000933|000901|Unique Flavors
+000934|000901|Honey
+000935|000901|Mango
+000936|000901|Pie & Cobbler
+000938|000901|Mixed Melon
+000939|000901|Grapefruit
+000937|000901|Watermelon
+000940|000901|Pear
+000941|000901|Tangerine
+000942|000901|Soda
+000943|000901|Cucumber
+000944|000901|Cranberry
+000945|000901|Kiwi
+000946|000901|Blueberry
+000947|000901|Lychee
+000948|000901|Banana
+000951|000901|Feijoa
+000950|000901|Floral
+000949|000901|Plum
+000952|000901|Mint
+000954|000901|Mixed Citrus
+000953|000901|Coffee & Tea
+000955|000901|Peanut Butter
+000956|000901|Pumpkin Spice
+000957|000901|Currant
+000958|000901|Fig
+000960|000769|Other Imported Whiskey
+000959|000901|Dragon Fruit
+000963|000876|Lemon
+000962|000876|Mango
+000961|000876|Pineapple
+000964|000876|Orange
+000965|000876|Vanilla
+000966|000876|Banana
+000967|000876|Mojito
+000969|000876|Passionfruit
+000968|000876|Coffee
+000970|000876|Honey
+000971|000876|Melon
+000972|000876|Cherry
+000973|000876|Tropical Fruit
+000974|000876|Lime
+000975|000876|Citrus Blend
+000977|000876|Strawberry
+000976|000876|Mixed Berry
+000979|000876|Peach
+000980|000876|Cranberry
+000978|000876|Whipped Cream
+000981|000876|Grape
+000982|000876|Ginger
+000983|000876|Vanilla-Cinnamon
+000984|000876|Chocolate-Coconut
+000985|000876|Cinnamon
+000986|000876|Dragon Fruit
+000989|000894|Tropical Fruit
+000990|000825|Extra Anejo
+000988|000876|Blueberry
+000987|000876|Root Beer
+000991|000894|Prickly Pear
+000992|000894|Jalapeno
+000993|000894|Mango
+000995|000894|Pepper
+000994|000894|Coconut
+000996|000894|Caramel
+000997|000894|Apple
+000998|000894|Almond
+000999|000894|Cinnamon
+001000|000894|Cinnamon-Pineapple
+001001|000894|Honey-Vanilla
+001002|000894|Coffee
+001008|000872|Cachaca
+001009|000771|Pisco
+001010|c0030|Country
+001011|001010|France
+001012|001011|State/Region
+001013|001012|Armagnac
+001014|001010|Albania
+001015|001012|Cognac
+001016|001010|United States
+001018|001017|Missouri
+001017|001016|State/Region
+001019|001010|Italy
+001020|001010|Serbia
+001021|001017|Washington
+001022|001017|Oregon
+001025|001010|Colombia
+001026|001010|Portugal
+001023|001010|Greece
+001024|001010|Mexico
+001027|001010|Denmark
+001028|001010|Bulgaria
+001029|001010|Czech Republic
+001030|001010|Germany
+001031|001010|Hungary
+001032|001010|Guatemala
+001033|001010|Croatia
+001034|001010|Austria
+001036|001010|Moldova
+001035|001010|Armenia
+001037|001010|Israel
+001038|001010|Bosnia and Herzegovina
+001039|001010|Lebanon
+001040|001010|Georgia
+001042|001017|Nevada
+001041|001010|Spain
+001043|001017|New York
+001044|001017|Connecticut
+001046|001017|Kentucky
+001047|001017|Colorado
+001045|001017|New Mexico
+001048|001017|Georgia
+001049|001010|Netherlands
+001050|001010|Canada
+001051|001017|Minnesota
+001052|001010|Turkey
+001053|001010|Jordan
+001054|001017|South Carolina
+001055|001010|Belgium
+001056|001010|Curacao
+001057|001010|Poland
+001058|001010|Jamaica
+001059|001017|Massachusetts
+001060|001010|Antilles
+001062|001010|Bahamas
+001061|001010|Venezuela
+001063|001010|Barbados
+001064|001017|Texas
+001065|001010|England
+001067|001010|Norway
+001066|001010|Ireland
+001068|001010|Scotland
+001069|001010|St. Lucia
+001070|001010|India
+001071|001010|Sweden
+001072|001010|Brazil
+001073|001010|Japan
+001074|001010|China
+001075|001010|Korea
+001076|001010|Slovakia
+001077|001010|St. Maarten
+001078|001017|Tennessee
+001079|001017|California
+001080|001017|Louisiana
+001081|001017|Arkansas
+001082|001017|Maine
+001083|001017|Vermont
+001084|001017|Wisconsin
+001085|001010|Puerto Rico
+001086|001010|US Virgin Islands
+001087|001010|New Zealand
+001088|001010|Bermuda
+001089|001017|Florida
+001090|001010|British Virgin Islands
+001091|001017|Arizona
+001092|001017|Idaho
+001093|001010|Switzerland
+001094|001012|Calvados
+001095|001010|Guyana
+001097|001010|West Indies
+001096|001017|West Virginia
+001098|001068|State/Region
+001099|001098|Speyside
+001100|001098|Highland
+001101|001010|Russia
+001102|001017|Illinois
+001103|001010|Lithuania
+001104|001010|South Africa
+001105|001017|Mississippi
+001106|001017|New Hampshire
+001107|001010|Estonia
+001108|001010|Finland
+001109|001010|Australia
+001110|001010|Iceland
+001111|001010|Kazakhstan
+001112|001010|Vietnam
+001113|001010|Argentina
+001114|001017|Pennsylvania
+001115|001017|Alaska
+001116|001010|Ukraine
+001117|001010|Latvia
+001118|001017|Utah
+001119|001017|Delaware
+001121|001010|Mongolia
+001120|001010|Belarus
+001122|001017|North Carolina
+001123|001017|Maryland
+001124|001017|Hawaii
+001125|001010|Philippines
+001127|001098|Islay & Islands
+001128|001017|Montana
+001126|001017|Rhode Island
+001129|001017|District of Columbia
+001131|001017|Alabama
+001130|001010|Cayman Islands
+001132|001017|New Jersey
+001133|001017|Kansas
+001134|001017|Iowa
+001135|001017|Virginia
+001136|001017|Wyoming
+001137|001017|Indiana
+001138|001010|Martinique
+001139|001010|Trinidad and Tobago
+001141|001010|Dominican Republic
+001140|001010|St. Kitts
+001143|001010|Costa Rica
+001142|001010|Panama
+001144|001010|Nicaragua
+001145|001010|Haiti
+001146|001010|Belize
+001147|001010|Paraguay
+001148|001010|Antigua
+001149|001010|Indonesia
+001150|001010|Peru
+001151|001017|South Dakota
+001152|001010|Fiji
+001153|001010|Madagascar
+001154|001010|Thailand
+001155|001010|El Salvador
+001156|001010|Mauritius
+001157|001098|Campbeltown
+001158|001010|Chile
+001160|c0010|Category
+001159|001098|Lowland
+001161|001160|Coolers & Malt Beverages
+001162|001161|Beer Type
+001163|001162|Wine Coolers
+001165|001160|Specialty Styles
+001166|001165|Beer Type
+001164|001162|Flavored Malt Beverages
+001167|001166|Cream Ale
+001168|001166|Shandy/Radler
+001169|001160|Lager
+001171|001170|Schwarzbier
+001170|001169|Beer Type
+001173|001172|Beer Type
+001172|001160|Ale
+001174|001173|Amber/Red Ale
+001175|001174|Style
+001176|001175|Irish Red Ale
+001177|001175|American Amber/Red Ale
+001178|001173|Belgian-Style Ale
+001179|001178|Style
+001180|001179|Belgian Strong Pale Ale
+001181|001170|German Pilsner
+001182|001173|Wheat Ale
+001183|001182|Style
+001184|001183|Witbier
+001185|001183|Hefeweizen
+001186|001173|IPA (India Pale Ale)
+001187|001186|Style
+001188|001187|American IPA
+001189|001170|Czech Pilsner
+001190|001170|American Amber/Red Lager
+001191|001160|Variety Packs & Gift Sets
+001192|001191|Beer Type
+001193|001192|Variety Packs
+001194|001170|Vienna Lager
+001195|001179|Saison/Farmhouse Ale
+001196|001166|Herbed/Spiced Beer
+001197|001179|Gueuze Lambic
+001198|001187|English IPA
+001199|001173|Pale Ale
+001200|001199|Style
+001201|001200|English Pale Ale
+001202|001173|Porter
+001203|001202|Style
+001204|001203|American Porter
+001205|001173|Barley Wine
+001206|001205|Style
+001207|001206|American Barley Wine
+001208|001173|Strong Ale
+001209|001208|Style
+001210|001209|English Strong Ale
+001211|001173|Stout
+001212|001211|Style
+001213|001212|Oatmeal Stout
+001214|001170|Euro Pale Lager
+001215|001166|Specialty Beer
+001216|001166|Fruit Beer
+001217|001170|Munich Helles Lager
+001218|001170|Light Lager
+001219|001173|Blonde Ale
+001220|001219|Style
+001221|001220|American Blonde Ale
+001222|001179|Belgian Pale Ale
+001223|001200|American Pale Ale
+001224|001170|Marzen/Oktoberfest
+001225|001212|American Stout
+001226|001212|Milk/Sweet Stout
+001227|001170|Bock
+001228|001170|American-Style Lager
+001229|001173|Brown Ale
+001230|001229|Style
+001231|001230|English Brown Ale
+001232|001170|American All-Malt Lager
+001233|001209|Old Ale
+001234|001220|Kolsch
+001235|001183|American Pale Wheat Ale
+001236|001200|Extra Special Bitter (ESB)
+001237|001209|American Strong Ale
+001238|001179|Dubbel
+001239|001183|Weizenbock
+001240|001187|American Double/Imperial IPA
+001241|001230|American Brown Ale
+001242|001212|Irish Dry Stout
+001243|001166|Pumpkin Ale
+001244|001179|Belgian Strong Dark Ale
+001245|001212|English Stout
+001246|001166|Winter Warmer
+001247|001170|Doppelbock
+001248|001203|Baltic Porter
+001249|001166|Black & Tan
+001250|001170|California Common/Steam Beer
+001251|001212|Russian Imperial Stout
+001252|001170|Euro Dark Lager
+001253|001170|Dortmunder/Export Lager
+001254|001200|English Bitter
+001255|001212|American Double/Imperial Stout
+001256|001203|English Porter
+001257|001170|American Double/Imperial Pilsner
+001258|001206|English Barley Wine
+001259|001179|Biere de Garde
+001260|001175|Altbier
+001261|001170|Maibock/Helles Bock
+001262|001209|Scotch Ale/Wee Heavy
+001263|001170|Munich Dunkel Lager
+001264|001166|Gluten-Free Beer
+001265|001192|Gift Sets
+001266|001209|Scottish Ale
+001267|001179|Belgian Dark Ale
+001268|001179|Tripel
+001269|001183|Dunkelweizen
+001270|001166|American Wild Ale
+001271|001166|Rye Beer
+001272|001230|English Dark Mild Ale
+001273|001179|Quadrupel
+001274|001170|Euro Strong Lager
+001275|001170|Rauchbier
+001276|001179|Belgian IPA
+001277|001206|Wheat Wine
+001278|001183|Berliner Weissbier
+001279|001166|Chili Beer
+001280|001209|American Black Ale
+001281|001183|American Dark Wheat Ale
+001282|001212|Foreign/Export Stout
+001283|001160|Cider
+001284|001283|Beer Type
+001285|001284|Other Fruit Cider
+001286|001183|Kristalweizen
+001287|001183|Gose
+001288|001179|Flanders Oud Bruin
+001289|001179|Fruit Lambic
+001290|001179|Flanders Red Ale
+001291|001170|Keller Bier/Zwickel Bier
+001292|001284|Apple Cider
+001293|001284|Perry (Pear Cider)
+001294|001203|American Imperial Porter
+001295|001170|American Malt Liquor
+001296|001179|Unblended Lambic
+001297|001179|Biere de Champagne
+001298|001179|Faro Lambic
+001299|001166|Sahti
+001300|001170|Eisbock
+001301|001166|Scottish Gruit/Ancient Herbed Ale
+001302|001170|Japanese Rice Lager
+001304|001303|United States
+001303|c0010|Country
+001305|001304|State/Region
+001306|001305|California
+001308|001305|Tennessee
+001307|001305|New York
+001309|001305|North Carolina
+001310|001305|Illinois
+001311|001305|Colorado
+001312|001305|Michigan
+001313|001305|Idaho
+001314|001305|Vermont
+001315|001305|South Carolina
+001316|001305|Delaware
+001317|001305|Pennsylvania
+001318|001305|Washington
+001319|001305|Texas
+001320|001305|New Hampshire
+001321|001305|Florida
+001322|001305|Georgia
+001323|001305|Maine
+001324|001305|Louisiana
+001325|001305|Maryland
+001326|001305|Massachusetts
+001327|001305|Wisconsin
+001328|001305|Oregon
+001329|001305|New Jersey
+001330|001305|Virginia
+001331|001305|Utah
+001332|001305|Missouri
+001333|001305|Montana
+001334|001305|Minnesota
+001335|001305|Rhode Island
+001336|001305|Connecticut
+001337|001305|Hawaii
+001338|001305|Arizona
+001339|001305|Kentucky
+001340|001305|Ohio
+001342|001305|Nevada
+001341|001305|Alaska
+001343|001305|Mississippi
+001344|001305|West Virginia
+001345|001303|Albania
+001346|001305|Kansas
+001347|001305|District of Columbia
+001348|001305|Oklahoma
+001349|001305|New Mexico
+001350|001305|Alabama
+001351|001303|Mexico
+001352|001303|Czech Republic
+001353|001303|Germany
+001354|001305|Iowa
+001355|001305|Nebraska
+001356|001305|Indiana
+001358|001303|Belgium
+001357|001303|Denmark
+001359|001303|Italy
+001360|001303|New Zealand
+001361|001303|France
+001362|001303|Dominican Republic
+001363|001305|North Dakota
+001364|001303|Sweden
+001365|001303|Netherlands
+001366|001303|England
+001367|001303|Canada
+001368|001303|Austria
+001369|001303|Australia
+001370|001303|Argentina
+001371|001303|Norway
+001372|001303|Bulgaria
+001373|001303|China
+001374|001303|Taiwan
+001375|001303|Ukraine
+001376|001303|Russia
+001377|001303|Slovakia
+001379|001303|Lithuania
+001378|001303|Latvia
+001380|001303|Estonia
+001381|001303|Croatia
+001382|001303|Armenia
+001383|001303|Serbia
+001384|001303|Finland
+001386|001303|Wales
+001385|001303|Iceland
+001387|001303|Greece
+001388|001303|India
+001389|001303|Sri Lanka
+001390|001303|Ireland
+001391|001303|Lebanon
+001392|001303|Turkey
+001393|001303|Israel
+001394|001303|Jamaica
+001395|001303|Bahamas
+001397|001303|Trinidad and Tobago
+001398|001303|Haiti
+001396|001303|Puerto Rico
+001399|001303|US Virgin Islands
+001401|001303|Cayman Islands
+001403|001303|South Korea
+001400|001303|Barbados
+001404|001303|Malta
+001402|001303|Japan
+001406|001303|Poland
+001405|001303|Philippines
+001407|001303|Portugal
+001408|001303|Scotland
+001410|001303|Vietnam
+001409|001303|Switzerland
+001411|001303|Thailand
+001413|001303|French Polynesia
+001412|001303|Laos
+001414|001303|Fiji
+001415|001303|Singapore
+001416|001303|Spain
+001417|001305|Arkansas
+001418|001303|Guatemala
+001419|001303|Bolivia
+001420|001303|Brazil
+001421|001303|Peru
+001422|001303|El Salvador
+001423|001303|Costa Rica
+001424|001303|Colombia
+001425|001303|Venezuela
+001426|001303|Honduras
+001428|001303|Belize
+001427|001303|Nicaragua
+001430|001303|Kenya
+001429|001303|Chile
+001431|c0050|Accessories Category
+001433|001432|Accessories Type
+001434|001433|Juice
+001432|001431|Mixers, Water & Soda
+001435|001433|Tea
+001436|001433|Soda
+001437|001433|Seltzer Water
+001438|001433|Tonic Water
+001439|001433|Club Soda
+001440|001433|Water
+001441|001431|Ice
+001442|001431|Food
+001443|001442|Accessories Type
+001444|001443|Drink Garnishes
+001445|001443|Cookies
+001446|001443|Chocolate, Candy & Mints
+001447|001443|Bread
+001448|001443|Jerky & Sticks
+001449|001443|Chips, Puffs & Pretzels
+001450|001449|Accessories Subtype
+001451|001450|Popcorn
+001452|001450|Tortilla Chips
+001453|001443|Nuts
+001454|001443|Appetizers/Hors d'Oeuvres
+001455|001454|Accessories Subtype
+001456|001455|Canned Seafood
+001457|001431|Cigars
+001458|001457|Accessories Type
+001459|001458|Toro
+001461|001458|Robusto
+001460|001458|Double Toro/Gordo
+001462|001458|Gift Pack
+001464|001458|Petit Corona
+001463|001458|Panatela
+001465|001458|Churchill
+001466|001458|Lonsdale
+001467|001458|Rothschild
+001468|001458|Cigarillos/Small Cigars
+001469|001458|Double Corona
+001470|001458|Belicoso
+001471|001458|Corona
+001472|001458|Figurado
+001473|001458|Corona Gorda
+001474|001458|Pyramid
+001475|001458|Torpedo
+001476|001458|Gran Corona
+001477|001458|Perfecto
+001478|001458|Gigante
+001479|001458|Corona Grande
+001481|001431|Accessories
+001480|001458|Presidente
+001483|001482|Wine Accessories
+001482|001481|Accessories Type
+001484|001483|Accessories Subtype
+001485|001484|Wine Preservation
+001487|001486|Accessories Subtype
+001486|001482|Cigar Accessories
+001488|001487|Humidification Devices
+001489|001487|Humidors
+001490|001487|Ashtrays
+001491|001433|Sparkling Cider
+001492|001433|Sports Drinks
+001493|001431|Coffee
+001494|001443|Cheese
+001495|001443|Preserves
+001496|001440|Accessories Subtype
+001497|001496|Flavored Water
+001498|001496|Still Water
+001499|001496|Sparkling Water
+001500|001450|Pretzels
+001502|001443|Gift Baskets
+001501|001455|Dips & Spreads
+001503|001443|Condiments
+001504|001433|Cocktail Mixes
+001505|001504|Accessories Subtype
+001506|001505|Daiquiri
+001507|001505|Flavored Mixers
+001508|001455|Crackers
+001509|001503|Accessories Subtype
+001510|001509|Oil & Vinegar
+001511|001450|Vegetable Chips
+001512|001443|Pasta & Pasta Sauce
+001513|001443|Oils and Vinegars
+001514|001443|Honey
+001515|001455|Grape Leaves
+001516|001455|Peppers
+001517|001509|Dressing & Marinades
+001518|001455|Pickles & Capers
+001519|001509|Hot Sauce
+001520|001509|BBQ & Steak Sauces
+001521|001450|Potato Chips
+001522|001455|Caviar
+001523|001509|Mustard & Horseradish
+001524|001509|Sliced Pickles & Relish
+001525|001455|Salsa
+001526|001443|Pate/Meat
+001527|001450|Specialty Chips
+001528|001505|Manhattan
+001530|001433|Syrups
+001529|001505|Tom Collins
+001531|001530|Accessories Subtype
+001532|001531|Flavored Syrups
+001533|001505|Mudslide
+001534|001505|Cosmopolitan
+001535|001505|Sangria
+001536|001505|Lemon Drop
+001537|001505|Martini
+001538|001505|Egg Nog
+001539|001505|Margarita
+001540|001531|Triple Sec Syrup
+001541|001505|Bloody Mary
+001542|001505|Old Fashioned
+001544|001505|Pina Colada
+001543|001505|Whiskey Sour
+001545|001505|Mojito
+001546|001505|Mai Tai
+001547|001505|Sweet & Sour
+001548|001433|Cocktail Rimmers
+001549|001433|Bitters
+001550|001450|Pita Chips
+001551|001450|Snack Mixes
+001552|001450|Cheese Puffs
+001553|001433|Coffee
+001554|001443|Smoked Fish
+001555|001482|Glassware
+001556|001555|Accessories Subtype
+001557|001556|Beer Glasses
+001558|001482|Bar Tools
+001559|001558|Accessories Subtype
+001560|001559|Serving/Entertaining
+001561|001431|Novelty Gifts
+001562|001559|Chillers/Coolers
+001563|001431|Gift Supplies
+001564|001563|Accessories Type
+001565|001564|Gift Boxes
+001566|001564|Labeling Supplies
+001568|001564|Tissue
+001569|001482|Wine Storage & Transport
+001567|001564|Gift Bags
+001570|001569|Accessories Subtype
+001572|001559|Cleaning Supplies
+001571|001570|Travel Totes
+001573|001556|Decanters
+001574|001484|Aeration
+001575|001484|Wine Openers
+001576|001559|Bottle Openers
+001577|001484|Pourers
+001578|001559|Drink Preparation
+001579|001556|Spirits Glasses
+001580|001556|Champagne Glasses
+001581|001556|White Wine Glasses
+001582|001556|Red Wine Glasses
+001583|001556|Other Wine Glasses
+001584|001487|Cutters
+001585|001487|Lighters/Matches
+001586|001431|Reference Materials
+001587|001586|Accessories Type
+001588|001587|Books
+001590|001587|DVDs
+001589|001431|Home Brew & Spirit Kits
+001591|001587|Magazines
+001592|001570|Wine Racks
+001594|001570|Stemware Racks
+001593|001556|Disposable Glasses
+001595|001531|Grenadine
+001596|001531|Simple Syrup
+002003|002001|d'Asti
+002002|002001|Brechetto
+002001|000007|Style
+003004|001017|Michigan
+003001|000010|Seyval Blanc
+003002|000010|Vidal Blanc
+003003|000901|Cherry
+004001|000624|Lugana
+004002|001017|Oklahoma
+005002|000261|Kentucky
+005003|000261|Delaware
+007001|000261|Arkansas
+008001|000025|Syrah/Shiraz
+009001|002001|Blanc de Blancs
+009002|000505|Kamptal
+9112715|999999|Black Friday
+010001|001017|Nebraska
+011002|011001|varietalType
+011001|001431|Gift Baskets & Sets
+011003|011002|Gift Sets
+3771|2111|Hard Soda (alcoholic)
+91220192|9122019|Limited Time Specials Products
+941825|000064|Dry Rose
+91920|000010|Super Tuscan
+012001|001010|Taiwan
+013001|001166|Gluten Free & Low Gluten
+916189153|91618915|Priority Notification Products
+9122019|999999|Limited Time Specials old
+91618915|909090|Priority Notification old
+968574|909090|Priority Notification
+9876543|987654|LTS Products
+9685741|968574|PN Products
+987654|999999|Limited Time Specials
+9192114|c0030|Suntory
+9160120|999999|Saint Patricks Day
+9140523|999999|New to Total Wine & More
+91405231|9140523|New to TWM Products
+91601201|9160120|St Patricks Products
+014001|000010|Brachetto
+014002|001556|Insulated Glasses
+015001|000261|Ohio
+90623191|9062319|Fresh Whites for Spring Products
+9062319|999999|Fresh Whites for Spring
+3772|277|KENTUCKY
+3775|277|INDIANA
+3774|277|WISCONSIN
+3773|277|TENNESSEE
+3776|277|Central
+016003|000261|Tennessee
+92291446|999999|Vin de France
+922914461|92291446|Vin de France Products
+93920182219|001166|Citrus Beer
+96181191|9618119|Discover France Spirits Products
+96181231|9618123|Discover France Wine Products
+9618123|999999|Discover France Wine
+9618119|999999|Discover France Spirits
+95191618|000355|Ribera del Duero & Rueda
+9238919|c0030|Whiskey
+018001|001017|Ohio
+9191619|999999|Discover Spain & Portugal Spirits
+9191623|999999|Discover Spain & Portugal Wine
+931531331|93153133|Cocktail Accessories Products
+91916231|9191623|Discover Spain & Portugal Wine Products
+93153133|001482|Cocktail Accessories
+91916191|9191619|Discover Spain & Portugal Spirits Products
+914523519161|91452351916|New from Spain items
+91452351916|999999|New from Spain
+91215151688|999999|Picnic Essentials
+912151516881|91215151688|Picnic Essentials Products
+023001|001305|Wyoming
+025002|000521|Morgon
+025001|000521|Fleurie
+025005|000521|Regnie
+025004|000521|Julienas
+025003|000521|Brouilly
+91916112121|9191611212|Discover SP Products
+9191611212|999999|Discover Spain & Portugal
+90704133|c0050|Fourth of July Essentials
+9491992011|949199201|Discover Italy Temp Items
+949199201|999999|Discover Italy
+94144125|999999|Gifts for Dad
+9232424|000003|White Bordeaux
+941441251|94144125|Gifts for Dad Products
+91916133|c0020|Spain & Portugal
+92252220|001558|Build your bar Bar Tools
+9225223|c0030|Build your bar Whiskey
+9225222|000897|Build your bar Vodka
+92252135|001432|Build your bar Mixers and Essentials
+922527|000870|Build your bar Gin
+92252723|001555|Build your bar Glassware
+9225218|000871|Build your bar Rum
+9225220|000824|Build your bar Tequila
+902021|90202|Bottle Busters Items
+90202|999999|Bottle Busters
+92311954|c0020|Washington Reds
+91452331|c0020|New California Wine
+9311419|c0010|Beer Cans
+9856181|c0020|High End French Wine
+3777|275|Malbec 1.5Liter
+070616|000066|Highly Rated Malbec Under 15
+026001|000261|Wyoming
+071116|c0020|Gassier Brands
+026002|000163|Extra Brut
+027001|000876|Black Cherry
+1521206|001555|Outdoor Entertaining
+1821136|000871|Rum Day Savings
+RumDay16|c0030|National Rum Day Savings 
+974364|c0020|Discover Southern Hemisphere
+1452319|c0030|What's New in Spirits 
+6112126|c0030|Fall Spirits
+71205|c0050|Tailgating Essentials 
+028001|000145|Flavored Sake
+09372623|c0020|New French Wine
+092254|c0020|California Wine Month
+201912|c0050|25th Anniversary Exclusives
+8112121523|c0010|Halloween Beers
+811212712119|001555|Halloween Accessories
+129249147|79620351420518|Gifts for your Mixologist
+8978514|79620351420518|High End Champagne
+9796208|79620351420518|Gift Bags and Accessories
+397118|79620351420518|Cigar Shop
+9191152|79620351420518|Noteworthy Whiskies
+9202166|79620351420518|Stocking Stuffers
+9115202|79620351420518|Gift Sets and Baskets
+18120520|79620351420518|Highly Rated Wines Under $30
+25518|79620351420518|Gifts for your Beer Lover
+71211919|79620351420518|Glassware
+9639199|69342961|New Red Wines
+9242677|69342961|Exciting Champagne
+963922|69342961|New California Wines
+811212152319|c0030|Spirits for Halloween
+9425563|c0020|Wine for Halloween
+029001|000769|Japanese Whisky
+64965649|c0050|Mixology Essentials 
+26734257|000778|Holiday Cordials
+368378246|c0030|Holiday Entertaining Essentials Spirits
+4678377|79620351420518|Gifts for the Host
+7377376468|c0030|Peppermint
+3773684257|c0050|Holiday Accessory Essentials
+9021404|69342961|Beaujolais Nouveau
+90214041|9021404|Beaujolais Nouveau Products
+46783771|4678377|Hostess Gifts Products
+91127151|9112715|Black Friday Products
+969342961|96934296|New to TWM Products
+96934296|69342961|New to Total Wine & More
+9639482|c0020|New Italian Sparkling Wine
+92441251902|999999|24 Deals Day 2
+924412519051|92441251905|24 Deals Day 5 Products
+924412519031|92441251903|24 Deals Day 3 Products
+924412519021|92441251902|24 Deals Day 2 Products
+52441251902|999999|24 Deals Day 2 Email
+52441251904|999999|24 Deals Day 4 Email
+924412519011|92441251901|24 Deals Day 1 Products
+524412519041|52441251904|24 Deals Day 4 Email Products
+92441251901|999999|24 Deals Day 1
+924412519041|92441251904|24 Deals Day 4 Products
+524412519021|52441251902|24 Deals Day 2 Email Products
+92441251904|999999|24 Deals Day 4
+92441251903|999999|24 Deals Day 3
+92441251905|999999|24 Deals Day 5
+52441251903|999999|24 Deals Day 3  Email
+524412519031|52441251903|24 Days Day 3 Email Products
+524412519051|999999|24 Deals Day 5 Ainsley Brae
+524412519052|999999|24 Deals Day 5 Luigi Bormioli
+5244125190511|524412519051|24 Deals Day 5 Ainsley Brae Products
+92441251906|999999|24 Deals Day 6
+92441251907|999999|24 Deals Day 7
+5244125190521|524412519052|24 Deals Day 5 Luigi Bormioli Products
+924412519061|92441251906|24 Deals Day 6 Products
+924412519071|92441251907|24 Deals Day 7 Products
+92441251908|999999|24 Deals Day 8
+924412519081|92441251908|24 Deals Day 8 Products
+92441251909|999999|24 Deals Day 9
+924412519091|92441251909|24 Deals Day 9 Products
+52441251909|999999|24 Deals Day 9 Email
+524412519091|52441251909|24 Deals Day 9 Email Products
+92441251910|999999|24 Deals Day 10
+924412519101|92441251910|24 Deals Day 10 Products
+52441251910|999999|24 Deals Day 10 Email
+524412519101|52441251910|24 Deals Day 10 Email Products
+92441251911|999999|24 Deals Day 11
+924412519111|92441251911|24 Deals Day 11 Products
+92441251912|999999|24 Deals Day 12
+924412519121|92441251912|24 Deals Day 12 Products
+92441251913|999999|24 Deals Day 13
+924412519131|92441251913|24 Deals Day 13 Products
+524412519131|999999|24 Deals Day 13 Adult Milk
+5244125191311|524412519131|24 Deals Day 13 Adult Milk Products
+524412519132|999999|24 Deals Day 13 Retro Bottle Holders
+5244125191321|524412519132|24 Deals Day 13 Retro Bottle Holders Products
+92441251914|999999|24 Deals Day 14
+924412519141|92441251914|24 Deals Day 14 Products
+52441251914|999999|24 Deals Day 14 Email
+524412519141|52441251914|24 Deals Day 14 Email Products
+92441251915|999999|24 Deals Day 15
+924412519151|92441251915|24 Deals Day 15 Products
+030001|001441|varietalType
+030002|030001|Ice
+924412519171|92441251917|24 Deals Day 17 Products
+924412519191|92441251919|24 Deals Day 19 Products
+92441251917|999999|24 Deals Day 17
+92441251920|999999|24 Deals Day 20
+924412519161|92441251916|24 Deals Day 16 Products
+524412519191|52441251919|24 Deals Day 19 Email Products
+924412519181|92441251918|24 Deals Day 18 Products
+52441251915|999999|24 Deals day 15 Email
+92441251919|999999|24 Deals Day 19
+524412519151|52441251915|24 Deals day 15 Email
+524412519161|52441251916|24 Deals Day 16 Email Products
+52441251919|999999|24 Deals Day 19 Email
+92441251918|999999|24 Deals Day 18
+92441251916|999999|24 Deals Day 16
+52441251916|999999|24 Deals Day 16 Email
+924412519201|92441251920|24 Deals Day 20 Products
+92441251921|999999|24 Deals Day 21
+924412519211|92441251921|24 Deals Day 21 Products
+52441251921|999999|24 Deals Day 21 Email
+524412519211|52441251921|24 Deals Day 21 Email Products
+92441251922|999999|24 Deals Day 22
+924412519221|92441251922|24 Deals Day 22 Products
+92441251923|999999|24 Deals Day 23
+924412519231|92441251923|24 Deals Day 23 Products
+92441251924|999999|24 Deals Day 24
+924412519241|92441251924|24 Deals Day 24 Products
+031001|001443|Ice Cream
+9846715|c0030|Noteworthy Whiskies
+94189141|9418914|Wines to Impress Products
+9232009|c0020|Wines to Impress
+92320091|9232009|Wines to Impress Products
+98467151|9846715|Noteworthy Whiskies Products
+91911521|9191152|Noteworthy Whiskies Products
+92021661|9202166|Stocking Stuffers Products
+9418914|79620351420518|Wines to Impress
+91152021|9115202|Gift Sets and Baskets Products
+97962081|9796208|Gift Bags and Accessories Products
+9071902|999999|Holiday Gift Baskets
+90719021|9071902|Holiday Gift Baskets Items
+032001|000391|Ribbon Ridge
+3778|278|Flowers
+92404051|9240405|Beer Blocks Products
+9240405|c0010|Beer Blocks
+4475761|447576|Girls Night Out Products
+7437721|743772|New From Sierra Nevada Products
+447576|c0050|Girls Night Out
+743772|c0010|New From Sierra Nevada
+912061|c0010|Large Format
+2255278|c0010|New Brews From Ballast Point
+92888977|c0020|Buttery Chardonnay
+96391991|9639199|New Red Wines Products
+033001|000323|Super Veneto
+9639221|963922|New California Wines Products
+92426771|9242677|Exciting Champagne Products
+91923133|c0050|Serveware
+91605133|c0050|Picnic Essentials
+3779|299|Sotol
+3780|218|Giveaway Items
+034001|001010|Uzbekistan
+56622337|c0010|New Brews From Kona
+9061901|c0050|Fruity Summer Accessories
+76872337|c0010|Sour Beer
+963976737|c0020|New Rosés
+90420231|9042023|Discover the World products
+9042023|999999|Discover the World
+248787472|c0010|Citrus IPAs
+977275531|97727553|Winery Direct Sparkling Wine Products
+97727553|c0020|Winery Direct Sparkling Wines
+724766|c0010|Saisons
+90622|c0030|Flavored Vodka
+976737727553|c0020|Rosés as Sparkles
+9767324837|c0020|Rosés to Enjoy with a Bite
+9767345377|c0020|Rosés for Less
+97673742642|c0020|Rosés to Enjoy at a Picnic
+9767392837|c0020|Rosés to Enjoy Along the Water
+9777673|c0020|Sparkling Rosés
+37848472|c0010|Fruit IPAs
+7377466|c0010|Sessionable Beers
+9011807|000279|Argentinian Reds
+09070419|000044|Sparklers for the Fourth
+9920116|000278|Italian Prosecco
+9020218|c0020|Bourbon Barrel Aged Reds
+9070417133|c0050|July Fourth Accessories
+9011319|c0020|Alfio Moriconi Selections
