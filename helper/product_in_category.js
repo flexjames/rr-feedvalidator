@@ -1,52 +1,44 @@
-var productHeaderLength;
+var prodInCatHeaderLength;
 var rowCollisionError = [];
 var rowMinLengthError = [];
-var productRowHeaderCheck = true;
-var requiredHeader = ['product_id', 'name', 'price', 'recommendable', 'image_url', 'link_url'];
+var prodInCatRowHeaderCheck = true;
+var requiredHeader = ['category_id', 'product_id'];
 var missingRequiredHeader = [];
-var allProductIds = [];
+
+function rowCheck(row,idx,delim,productIds){
+  if (idx === 1){ 
+	prodInCatHeaderLengthCheck(row, delim);
+	prodInCatHeaderCheck(row);
+	console.log("This is PIC row: " + row);
+  }else{
+	rowMergeCheck(row, idx, delim);
+	rowLengthCheck(row, idx, delim);
+  }
+}
 
 function rowMergeCheck(row, idx, delim){
-	if((row.split(delim).length) > productHeaderLength){
+	if((row.split(delim).length) > prodInCatHeaderLength){
 		rowCollisionError.push(idx);
 	}
 }
 
 function rowLengthCheck(row, idx, delim){
-	if((row.split(delim).length) < productHeaderLength){
+	if((row.split(delim).length) < prodInCatHeaderLength){
 		rowMinLengthError.push(idx);
 	}
 }
 
-function productHeaderLengthCheck(row, delim){
-	productHeaderLength = row.split(delim).length;
+function prodInCatHeaderLengthCheck(row, delim){
+	prodInCatHeaderLength = row.split(delim).length;
+	console.log("This is the PIC length: " + prodInCatHeaderLength);
 }
 
-function productHeaderCheck(row){
+function prodInCatHeaderCheck(row){
 	requiredHeader.forEach(function(header){
 		if (row.indexOf(header) === -1){
 			missingRequiredHeader.push(header);
 		}
 	});
-}
-
-function storeProductIds(row, delim){
-	allProductIds.push(row.split(delim)[0]);
-}
-
-function retrieveAllProductIds(){
-	return allProductIds;
-}
-
-function rowCheck(row,idx,delim){
-	if (row === 1){ 
-		productHeaderLengthCheck(row, delim);
-		productHeaderCheck(row);
-	}else{
-		rowMergeCheck(row, idx, delim);
-		rowLengthCheck(row, idx, delim);
-		storeProductIds(row, delim);
-	}
 }
 
 function printLog(rowCount){
@@ -62,14 +54,8 @@ function printLog(rowCount){
 	console.log('Number of Rows: ', rowCount);
 }
 
-//Only necessary when returning boolean value that is changed by function
-// function returnPHCheck(){
-// 	return productRowHeaderCheck;
-// }
-
 module.exports = {
 	rowCheck: rowCheck,
-	retrieveAllProductIds: retrieveAllProductIds,
+	// retrieveAllProductIds: retrieveAllProductIds,
 	printLog: printLog
 };
-
