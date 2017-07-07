@@ -118,19 +118,19 @@ function product_Full(file, files){
 
 			// console.log(productIds);
 
+			console.timeEnd('Product Full Validation Excuted In');
+
 			for(var i = 0; i < files.length; i++)
 			{
 				if(files[i].slice(0,19) === 'product_in_category'){
 					product_In_Category(files[i], productIds);
 				}
 			}
-
-			console.timeEnd('Product Full Validation Excuted In');
 		})
 	);
 }
 
-function product_In_Category(file, productIds){
+function product_In_Category(file, productIds, files){
 	console.time('Product In Category Validation Excuted In');
 	// console.log("ProductIDs: " + productIds);
 	//Validation Process
@@ -155,7 +155,21 @@ function product_In_Category(file, productIds){
 			prodInCat.printLog(rowCountPic);
 			// productIds = prodInCat.retrieveAllProductIds();
 
+			deleteFile();
+
 			console.timeEnd('Product In Category Validation Excuted In');
 		})
 	);
+}
+
+function deleteFile(){
+	rmdir(dirPath + fileName.slice(0, -4), function (err, dirs, files) {
+		if (err) { console.log(err)};
+		console.log('Reached Delete Process');
+		console.log(dirs);
+		console.log(files);
+		console.log('All the files are removed');
+		return true;
+	});
+	// console.log("This is the Delete File function for file: " + );
 }
