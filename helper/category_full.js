@@ -29,6 +29,8 @@ var categoryIdCounter = []; /* For each category in the file, count how many tim
 var productRowHeaderCheck = true; /* ??? */
 var catIdPos; /* Which column corresponds to the category id*/
 
+var errorMsg = [];
+
 /* Return a list 
     of all categories 
     that are present more than once */
@@ -61,6 +63,10 @@ function extractCategoryIds(idx, row, delim){
     categoryIdCounter[ currentCatId ] += 1; //Add for each category id a counter of how many times it appears in the file
 }
 
+function getAllCategoryIds (){
+    return allCategoryIds;
+}
+
 function rowMergeCheck(row, idx, delim){
 	if((row.split(delim).length) > categoryLength){
 		rowCollisionError.push(idx);
@@ -74,13 +80,13 @@ function rowLengthCheck(row, idx, delim){
 }
 
 
-function runChecks(row, idx, delim){
-    rowMergeCheck(row, idx, delim);
-    rowLengthCheck(row, idx, delim);
+function runChecks(row, delim){
+    /*rowMergeCheck(row, idx, delim);
+    rowLengthCheck(row, idx, delim);*/
+    var parentId = row.split( delim )[ parentIdPos ];
     
-    var parentId = row.split(delim)[ parentIdPos ];
-    if( typeof allCategoryIds [ parentId ] == "undefined" ){
-        parentIdError.push("Parent Id: " + parentId + " does not exist as an indvidual id");
+    if( parentId !== "" && typeof allCategoryIds [ parentId ] === "undefined" ){
+        errorMsg.push("[Parent Id Verification] Parent Id: " + parentId + " does not exist as an indvidual id" + "\n");
     } 
     
     
@@ -101,9 +107,13 @@ function categoryCheck(row){
 /**
 * How to check if a header name is present more than once?
 **/
-function checkCategoryHeader(erroMsg, row, delim){
+function checkCategoryHeader(row, delim){
+    console.log( "\n\n\n --- INFO --- Category_full - Checking header" );
     var headerNames = row.split( delim );
-    var x, y, z, j = 0;
+    var x = 0;
+    var y = 0;
+    var z = 0;
+    var j = 0;
     
     for(var i = 0; i < headerNames.length; i++){
         if( headerNames[i] === "category_id" ){
@@ -119,29 +129,37 @@ function checkCategoryHeader(erroMsg, row, delim){
                  headerNames[i] === "category_image_url"  ){
             j++;
         }else{
-            categoryLog.push("[ERROR] An invalid header is present: " + headerNames[i] );
+            errorMsg.push("[ERROR] An invalid header is present: " + headerNames[i] + "\n" );
         }
         
     }
     
+    /*console.log(x + " " + y + " " + z);*/
+    
     if( x+y+z === 3)
-        categoryLog.push("[OK] All mandatory headers present");
+        errorMsg.push("[OK] All mandatory headers present" + "\n");
     else if( x === 0 )
-        categoryLog.push("[ERROR] A mandatory header is missing: categoryId");
+        errorMsg.push("[ERROR] A mandatory header is missing: categoryId" + "\n");
     else if( y === 0 )
-        categoryLog.push("[ERROR] A mandatory header is missing: parentId");
+        errorMsg.push("[ERROR] A mandatory header is missing: parentId" + "\n");
     else if( z === 0 )
-        categpryLog.push("[ERROR] A mandatory header is missing: name");
+        errorMsg.push("[ERROR] A mandatory header is missing: name" + "\n");
     else if( j === 2 ){
-        categoryLog.push("[INFO] Optional headers are present: category_link_url and category_image_url");
+        errorMsg.push("[INFO] Optional headers are present: category_link_url and category_image_url" + "\n");
     }
     else if( x+y+z > 3 ){
-        categoryLog.push("[ERROR] Mandatory headers are duplicated");
+        errorMsg.push("[ERROR] Mandatory headers are duplicated" + "\n");
     }
     else if( j > 2 ){
-        categoryLog.push("[ERROR] Optional headers are duplicated");
+        errorMsg.push("[ERROR] Optional headers are duplicated" + "\n");
     }
     
+    /*console.log("print error msg from within category_full.js: " + JSON.stringify(errorMsg));*/
+    
+}
+
+function getErrorMessage(){
+    return errorMsg;
 }
 
 function printLog(rowCount){
@@ -165,6 +183,13 @@ module.exports = {
 	rowMergeCheck : rowMergeCheck,
 	rowLengthCheck: rowLengthCheck,
 	categoryCheck: categoryCheck,
+    categoryLog: categoryLog,
+    getAllCategoryIds: getAllCategoryIds,
+    getErrorMessage: getErrorMessage,
+    checkCategoryHeader: checkCategoryHeader,
+    extractCategoryIds: extractCategoryIds,
+    getAllCategoryIds: getAllCategoryIds,
+    runChecks: runChecks,
 	printLog: printLog
 };
 
