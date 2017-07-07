@@ -10,6 +10,7 @@ function rowCheck(row,idx,delim,productIds){
 	prodInCatHeaderLengthCheck(row, delim);
 	prodInCatHeaderCheck(row);
 	console.log("This is PIC row: " + row);
+	console.log("These are the productIds from Product Full: " + productIds[1]);
   }else{
 	rowMergeCheck(row, idx, delim);
 	rowLengthCheck(row, idx, delim);
