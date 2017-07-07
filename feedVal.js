@@ -6,6 +6,7 @@ var unzip = require('unzip');
 var deltaError = require('./helper/deltaHelper.js');
 var productFull = require('./helper/product_full.js');
 var prodInCat = require('./helper/product_in_category.js');
+var categoryFull = require('./helper/category_full.js');
 var fileName = "\/" + process.argv[2];
 var delim = process.argv[3];
 var dirPath = __dirname;
@@ -13,7 +14,7 @@ var rowCountPf = 1;
 var rowCountPic = 1;
 var rmdir = require('rmdir');
 var productIds;
-
+var categories;
 
 console.log(dirPath + "\/" + process.argv[2].slice(0, -4) + "\/");
 
@@ -161,6 +162,53 @@ function product_In_Category(file, productIds, files){
 		})
 	);
 }
+
+function category_Full(file) {
+    console.time('\n\n\n --- [INFO] --- Entering category_Full function');
+    var errorLog = [];
+
+    for (var i = 0; i < 2; i++) {
+        validateCategoryFull(file, errorLog, i);
+    }
+
+}
+
+function validateCategoryFull(file, errorLog, runNumber) {
+    //Validation Process
+
+    var index = 0;
+
+    var s = fs.createReadStream(dirPath + fileName.slice(0, -4) + "\/" + file)
+        .pipe(es.split())
+        //.pipe(es.parse({error:true}))
+        .pipe(es.mapSync(function (line) {
+                s.pause();
+
+                if (line !== "" && index === 0 && runNumber === 0) {
+                    categoryFull.checkCategoryHeader(line, delim);
+                } else if (line !== "" && index > 0 && runNumber === 0) {
+                    categoryFull.extractCategoryIds(index - 1, line, delim);
+                    categories = categoryFull.getAllCategoryIds();
+                } else if (line !== "" && index > 0 && runNumber === 1) {
+                    categoryFull.runChecks(line, delim);
+                    categoryFullRowCount++;
+                }
+
+                index++;
+
+                s.resume();
+            })
+            .on('error', function () {
+                console.log('\n\n\n [Category Full] - Error while reading file');
+            })
+            .on('end', function () {
+                console.log('\n\n\n[Category Full] Read entire categoryFull file.\n');
+                /*productFull.printLog(rowCount);*/
+
+                /*console.timeEnd('Validation Excuted In');*/
+                console.log("\n\n\n[Category Full]" + categoryFull.getErrorMessage());
+            })
+        );
 
 function deleteFile(){
 	rmdir(dirPath + fileName.slice(0, -4), function (err, dirs, files) {
