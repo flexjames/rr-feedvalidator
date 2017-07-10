@@ -153,7 +153,7 @@ function validateCategoryFull(file, errorLog, runNumber) {
                     categoryFull.extractCategoryIds(index - 1, line, delim);
                     categories = categoryFull.getAllCategoryIds();
                 } else if (line !== "" && index > 0 && runNumber === 1) {
-                    categoryFull.runChecks(line, delim);
+                    categoryFull.runChecks(index, line, delim);
                     categoryFullRowCount++;
                 }
 
@@ -165,11 +165,15 @@ function validateCategoryFull(file, errorLog, runNumber) {
                 console.log('\n\n\n [Category Full] - Error while reading file');
             })
             .on('end', function () {
-                console.log('\n\n\n[Category Full] Read entire categoryFull file.\n');
                 /*productFull.printLog(rowCount);*/
 
                 /*console.timeEnd('Validation Excuted In');*/
-                console.log("\n\n\n[Category Full]" + categoryFull.getErrorMessage());
+                if (runNumber === 1) {
+                    console.log('\n\n\n[Category Full] Read entire categoryFull file.\n');
+                    console.log("\n\n\n[Category Full] " + categoryFull.getErrorMessage());
+
+                    console.log("\n-- WARNING -- [Category Full] Duplicate categories:" + categoryFull.getDuplicateCategories());
+                }
             })
         );
 }
