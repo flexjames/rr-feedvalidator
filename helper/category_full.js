@@ -148,7 +148,7 @@ function runChecks(idx, row, delim) {
 
 /**
  * Not sure what this function does
- **/
+ *
 function categoryCheck(row) {
     // for(i = 0; i < deltacategory.length; i++){
     // 	if (row[i] !== deltacategory[i]){
@@ -156,7 +156,7 @@ function categoryCheck(row) {
     // 	}
     // }
     categoryLength = row.length;
-}
+}*/
 
 /**
  * How to check if a header name is present more than once?
@@ -243,7 +243,7 @@ function printLog(rowCount) {
 module.exports = {
     rowMergeCheck: rowMergeCheck,
     rowLengthCheck: rowLengthCheck,
-    categoryCheck: categoryCheck,
+    /*categoryCheck: categoryCheck,*/
     categoryLog: categoryLog,
     getAllCategoryIds: getAllCategoryIds,
     getErrorMessage: getErrorMessage,

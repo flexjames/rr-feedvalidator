@@ -17,6 +17,7 @@ var productIds;
 var categories;
 var promise = require('bluebird');
 var iterPromises = [];
+var picFile;
 
 console.log(dirPath + "\/" + process.argv[2].slice(0, -4) + "\/");
 
@@ -54,8 +55,11 @@ function validate(files){
 		}
 		if(files[i].slice(0,13) === 'category_full'){
 			iterPromises.push(category_Full(files[i], files));
-		}	
-}
+		}
+		if(files[i].slice(0,19) === 'product_in_category'){
+			picFile = files[i];
+		}
+	}
 
 	if(iterPromises.length === 2){
 		console.log("made it to promise.all");
@@ -65,9 +69,10 @@ function validate(files){
 		})
 		.then(function(fulfilled){
 			console.log(fulfilled[0].length, fulfilled[1].length);
+			product_In_Category(picFile, fulfilled);
 		})
 		.then(function(){
-			deleteFiles();
+			// deleteFiles();
 		});
 
 	}
@@ -109,7 +114,7 @@ function product_Full(file, files){
 	});
 }
 
-function product_In_Category(file, productIds, files){
+function product_In_Category(file, ids){
 	console.time('Product In Category Validation Excuted In');
 	// console.log("ProductIDs: " + productIds);
 	//Validation Process
@@ -119,7 +124,7 @@ function product_In_Category(file, productIds, files){
 		.pipe(es.mapSync(function(line){
 			s.pause();
 
-			prodInCat.rowCheck(line,rowCountPic,delim,productIds);
+			prodInCat.rowCheck(line,rowCountPic,delim,ids);
 
 			rowCountPic++;
 
@@ -180,7 +185,7 @@ function validateCategoryFull(file, errorLog, runNumber) {
     	            } else if (line !== "" && index > 0 && runNumber === 0) {
     	                categoryFull.extractCategoryIds(index - 1, line, delim);
     	            } else if (line !== "" && index > 0 && runNumber === 1) {
-                      categoryFull.runChecks(line, delim);
+                      categoryFull.runChecks(index, line, delim);
                       //categoryFullRowCount++;
                   }
     	           
