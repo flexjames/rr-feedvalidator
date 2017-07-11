@@ -72,7 +72,7 @@ function validate(files){
 			product_In_Category(picFile, fulfilled);
 		})
 		.then(function(){
-			// deleteFiles();
+			deleteFiles();
 		});
 
 	}
