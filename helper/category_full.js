@@ -66,10 +66,10 @@ function extractCategoryIds(idx, row, delim) {
     var currentCatId = rowData[catIdPos];
     var parent_id = rowData[parentIdPos];
 
-    if( allCategoryIdsWithParent.indexOf( currentCatId + "|" +  parentIdPos ) !== -1 ){
+    if( allCategoryIdsWithParent.indexOf( currentCatId + "|" +  parent_id ) !== -1 ){
         if( duplicateCategories.indexOf( currentCatId ) === -1 ) duplicateCategories.push( currentCatId );
     }else{
-        allCategoryIdsWithParent.push( currentCatId + "|" +  parentIdPos );
+        allCategoryIdsWithParent.push( currentCatId + "|" +  parent_id );
     }
     
     
@@ -139,7 +139,7 @@ function runChecks(idx, row, delim) {
     /*console.log("category full - run checks - parent id: " + parentId);
     console.log("category full - run checks - allCategoryIds array: " + allCategoryIds[parentId]);*/
     
-    if (parentId !== "" && typeof allCategoryIds[parentId] === "undefined") {
+    if (parentId !== "" && typeof allCategoryIds.indexOf(parentId) === -1) {
         errorMsg.push("-- ERROR ---  [Parent Id Verification] Parent Id: " + parentId + " does not exist as an indvidual id" + "\n");
     }
 
