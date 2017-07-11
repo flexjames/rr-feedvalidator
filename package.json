@@ -12,6 +12,7 @@
   "author": "James Ma",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "event-stream": "^3.3.4",
     "extract-zip": "^1.6.0",
     "rmdir": "^1.2.0",

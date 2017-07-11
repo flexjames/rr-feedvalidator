@@ -13,89 +13,99 @@ var rowCount = 1;
 var categoryFullRowCount = 0;
 var rmdir = require('rmdir');
 var categories;
+var promise = require('bluebird');
+var iterPromises = [];
 
 console.log(dirPath + "\/" + process.argv[2].slice(0, -4) + "\/");
 
-if (process.argv[2].indexOf('zip') > -1) {
 
-    fs.createReadStream(dirPath + fileName)
-        .pipe(unzip.Extract({
-            path: dirPath + "\/" + process.argv[2].slice(0, -4)
-        }))
-        .on('error', function () {
-            throw new Error(error);
-        })
-        .on('close', function () {
-            console.log('Done extracting files');
+if(process.argv[2].indexOf('zip') > -1){
 
-            fs.readdir(dirPath + fileName.slice(0, -4) + "\/", function (err, files) {
+	fs.createReadStream(dirPath + fileName)
+		.pipe(unzip.Extract({path: dirPath + "\/" + process.argv[2].slice(0, -4)}))
+		.on('error', function(){
+			throw new Error(error);
+		})
+		.on('close', function(){
+			console.log('Done extracting files');
 
-                console.log('Unzipped Successfully');
-                if (err) {
-                    throw new Error(err);
-                } else {
-                    // console.log(files);
-                    validate(files);
-                }
-            });
-        });
+			fs.readdir(dirPath + fileName.slice(0, -4) + "\/", function(err, files){
+
+				if (err){
+					console.log('Unzipped Successfully');
+					throw new Error(err);
+				}else{
+					// console.log(files);
+					validate(files);
+				}
+			});
+		});
 }
 
-function validate(files) {
-    console.log(files);
-    for (i = 0; i < files.length; i++) {
-        console.log(dirPath + fileName.slice(0, -4) + "\/" + files[i]);
+function validate(files){
+	console.time('Validation Excuted In');
+	console.log(files);
+	for(i=0; i < files.length; i++){
+		// console.log(dirPath+fileName.slice(0, -4)+"\/"+files[i]);
 
-        if (files[i].slice(0, 12) === 'product_full') {
-            product_Full(files[i]);
-        } else if (files[i].indexOf('category_full') !== -1) {
-            console.log("OH HELLO");
-            category_Full(files[i]);
-        }
+		if(files[i].slice(0,12) === 'product_full'){
+			iterPromises.push(product_Full(files[i], files));
+		}
+		if(files[i].slice(0,13) === 'category_full'){
+			iterPromises.push(category_Full(files[i], files));
+		}	
+}
 
-        /*if (i === files.length - 1) {
-            console.log('Delete Process Started');
-            rmdir(dirPath + fileName.slice(0, -4), function (err, dirs, files) {
-                if (err) {
-                    console.log(err)
-                };
-                console.log('Reached Delete Process');
-                console.log(dirs);
-                console.log(files);
-                console.log('all files are removed');
-            });
-        }*/
-        // console.time('Validation Excuted In');
-        //Validation Process
-        // var s = fs.createReadStream(dirPath+fileName+"\/"+files[0])
-        // 	.pipe(es.split())
-        // 	//.pipe(es.parse({error:true}))
-        // 	.pipe(es.mapSync(function(line){
-        // 		s.pause();
+	if(iterPromises.length === 2){
+		console.log("made it to promise.all");
+		promise.all(iterPromises)
+		.catch(function(error){
+			console.log(error);
+		})
+		.then(function(fulfilled){
+			console.log(fulfilled[0].length, fulfilled[1].length);
+		})
+		.then(function(){
+			deleteFiles();
+		});
 
-        // 		if (rowCount === 1){
-        // 			deltaError.productHeaderCheck(line.split(delim));
-        // 		}
+	}
 
-        // 		deltaError.rowMergeCheck(line, rowCount, delim);
-        // 		deltaError.rowLengthCheck(line, rowCount, delim);
+	console.timeEnd('Validation Excuted In');
+	//deleteFiles();
+}
 
-        // 		rowCount++;
+function product_Full(file, files){
+	//Validation Process	
+	console.time('Product Full Validation Excuted In');
+	return new promise(function(resolve, reject){
+		var s = fs.createReadStream(dirPath+fileName.slice(0, -4)+"\/"+file)
+			.pipe(es.split())
+			//.pipe(es.parse({error:true}))
+			.pipe(es.mapSync(function(line){
+				s.pause();
 
-        // 		s.resume();
-        // 	})
-        // 	.on('error', function(){
-        // 		console.log('Error while reading file');
-        // 	})
-        // 	.on('end', function(){
-        // 		console.log('Read entire file.\n');
+				productFull.rowCheck(line, rowCountPf,delim);
 
-        // 		deltaError.printLog(rowCount);
+				rowCountPf++;
 
-        // 		console.timeEnd('Validation Excuted In');
-        // 	})
-        // );
-    }
+				s.resume();
+			})
+			.on('error', function(){
+				reject(new Error('Error while reading file Product Full'));
+			})
+			.on('end', function(){
+				console.log('Read entire file.\n');
+
+				productFull.printLog(rowCountPf);
+				productIds = productFull.retrieveAllProductIds();
+				resolve(productIds);
+				// console.log(productIds);
+
+				console.timeEnd('Product Full Validation Excuted In');
+			})
+		);
+	});
 }
 
 function product_Full(file) {
@@ -119,61 +129,92 @@ function product_Full(file) {
             .on('end', function () {
                 console.log('Read entire file.\n');
 
-                productFull.printLog(rowCount);
-
-                console.timeEnd('Validation Excuted In');
-            })
-        );
+		})
+	);
+	console.timeEnd('Product In Category Validation Excuted In');	
 }
 
 function category_Full(file) {
     console.time('\n\n\n --- [INFO] --- Entering category_Full function');
-    var errorLog = [];
+    console.log("File is " + file);
+    return new promise(function(resolve, reject){
+    	var errorLog = [];
 
-    for (var i = 0; i < 2; i++) {
-        validateCategoryFull(file, errorLog, i);
-    }
+    	for (var i = 0; i < 2; i++) {
+    			if(i === 0){
+    				validateCategoryFull(file, errorLog, i)
+    				.then(function(catIds){
+    					resolve(catIds);
+    				})
+    				.catch(function(err){
+    					reject(new Error(err));
+    				});
+    			}else{
+    				validateCategoryFull(file, errorLog, i);
+    			}
+    	}
 
+    });
 }
 
 function validateCategoryFull(file, errorLog, runNumber) {
     //Validation Process
-
     var index = 0;
+    console.log('\n\n\n --- [INFO] --- Entering category_Full function');
+    return new promise(function(resolve, reject){
+    	var s = fs.createReadStream(dirPath + fileName.slice(0, -4) + "\/" + file)
+    	    .pipe(es.split())
+    	    //.pipe(es.parse({error:true}))
+    	    .pipe(es.mapSync(function (line) {
+    	            s.pause();
 
-    var s = fs.createReadStream(dirPath + fileName.slice(0, -4) + "\/" + file)
-        .pipe(es.split())
-        //.pipe(es.parse({error:true}))
-        .pipe(es.mapSync(function (line) {
-                s.pause();
+    	            if (line !== "" && index === 0 && runNumber === 0) {
+    	                categoryFull.checkCategoryHeader(line, delim);
+    	            } else if (line !== "" && index > 0 && runNumber === 0) {
+    	                categoryFull.extractCategoryIds(index - 1, line, delim);
+    	            } else if (line !== "" && index > 0 && runNumber === 1) {
+                      categoryFull.runChecks(line, delim);
+                      //categoryFullRowCount++;
+                  }
+    	           
+    	            index++;
 
-                if (line !== "" && index === 0 && runNumber === 0) {
-                    categoryFull.checkCategoryHeader(line, delim);
-                } else if (line !== "" && index > 0 && runNumber === 0) {
-                    categoryFull.extractCategoryIds(index - 1, line, delim);
-                    categories = categoryFull.getAllCategoryIds();
-                } else if (line !== "" && index > 0 && runNumber === 1) {
-                    categoryFull.runChecks(index, line, delim);
-                    categoryFullRowCount++;
-                }
+    	            s.resume();
+    	        })
+    	        .on('error', function (e) {
+    	        		if(runNumber === 1){
+    	        			console.error(e);
+    	        		}else{
+    	        			reject(new Error(e.message));
+    	        		}
+    	        })
+    	        .on('end', function () {
+    	            /*productFull.printLog(rowCount);*/
+    	            if (runNumber === 0){
+    	            	console.log('\n\n\n[Category Full] Resolve Promise in categoryFull file.\n');
+    	            	categories = categoryFull.getAllCategoryIds();
+    	            	resolve(categories);
+    	            }else{
+    	            	console.log("\n\n\n[Category Full]" + categoryFull.getErrorMessage());
+    	            }
 
-                index++;
+    	            /*console.timeEnd('Validation Excuted In');*/
+    	        })
+    	    );
+    });
+}
 
-                s.resume();
-            })
-            .on('error', function () {
-                console.log('\n\n\n [Category Full] - Error while reading file');
-            })
-            .on('end', function () {
-                /*productFull.printLog(rowCount);*/
 
-                /*console.timeEnd('Validation Excuted In');*/
-                if (runNumber === 1) {
-                    console.log('\n\n\n[Category Full] Read entire categoryFull file.\n');
-                    console.log("\n\n\n[Category Full] " + categoryFull.getErrorMessage());
 
-                    console.log("\n-- WARNING -- [Category Full] Duplicate categories:" + categoryFull.getDuplicateCategories());
-                }
-            })
-        );
+
+function deleteFiles(){
+	rmdir(dirPath + fileName.slice(0, -4), function (err, dirs, files) {
+		if (err) { console.log(err)};
+		console.log('Reached Delete Process');
+		console.log(dirs);
+		console.log(files);
+		console.log('All the files are removed');
+		return true;
+	});
+	// console.log("This is the Delete File function for file: " + );
 }
