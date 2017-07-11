@@ -179,7 +179,7 @@ function validateCategoryFull(file, errorLog, runNumber) {
     	            } else if (line !== "" && index > 0 && runNumber === 0) {
     	                categoryFull.extractCategoryIds(index - 1, line, delim);
     	            } else if (line !== "" && index > 0 && runNumber === 1) {
-                      categoryFull.runChecks(line, delim);
+                      categoryFull.runChecks(index, line, delim);
                       //categoryFullRowCount++;
                   }
     	           
