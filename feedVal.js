@@ -46,8 +46,8 @@ function validate(files){
 	for(i=0; i < files.length; i++){
 		// console.log(dirPath+fileName.slice(0, -4)+"\/"+files[i]);
 
-		if(files[i].slice(0,12) === 'product_full'){
-			product_Full(files[i], files);
+		if(files[i].slice(0,13) === 'category_full'){
+			category_Full(files[i]);
 		}
 
 		// if (i === files.length-1){
@@ -91,6 +91,54 @@ function validate(files){
 	// 	})
 	// );
 	}
+}
+
+function category_Full(file) {
+    console.time('\n\n\n --- [INFO] --- Entering category_Full function');
+    var errorLog = [];
+
+    for (var i = 0; i < 2; i++) {
+        validateCategoryFull(file, errorLog, i);
+    }
+
+}
+
+function validateCategoryFull(file, errorLog, runNumber) {
+    //Validation Process
+
+    var index = 0;
+
+    var s = fs.createReadStream(dirPath + fileName.slice(0, -4) + "\/" + file)
+        .pipe(es.split())
+        //.pipe(es.parse({error:true}))
+        .pipe(es.mapSync(function (line) {
+            s.pause();
+
+            if (line !== "" && index === 0 && runNumber === 0) {
+                categoryFull.checkCategoryHeader(line, delim);
+            } else if (line !== "" && index > 0 && runNumber === 0) {
+                categoryFull.extractCategoryIds(index - 1, line, delim);
+                categories = categoryFull.getAllCategoryIds();
+            } else if (line !== "" && index > 0 && runNumber === 1) {
+                categoryFull.runChecks(line, delim);
+                categoryFullRowCount++;
+            }
+
+            index++;
+
+            s.resume();
+        })
+        .on('error', function () {
+            console.log('\n\n\n [Category Full] - Error while reading file');
+        })
+        .on('end', function () {
+            console.log('\n\n\n[Category Full] Read entire categoryFull file.\n');
+            /*productFull.printLog(rowCount);*/
+
+            /*console.timeEnd('Validation Excuted In');*/
+            console.log("\n\n\n[Category Full]" + categoryFull.getErrorMessage());
+        })
+        );
 }
 
 function product_Full(file, files){
@@ -162,53 +210,6 @@ function product_In_Category(file, productIds, files){
 		})
 	);
 }
-
-function category_Full(file) {
-    console.time('\n\n\n --- [INFO] --- Entering category_Full function');
-    var errorLog = [];
-
-    for (var i = 0; i < 2; i++) {
-        validateCategoryFull(file, errorLog, i);
-    }
-
-}
-
-function validateCategoryFull(file, errorLog, runNumber) {
-    //Validation Process
-
-    var index = 0;
-
-    var s = fs.createReadStream(dirPath + fileName.slice(0, -4) + "\/" + file)
-        .pipe(es.split())
-        //.pipe(es.parse({error:true}))
-        .pipe(es.mapSync(function (line) {
-                s.pause();
-
-                if (line !== "" && index === 0 && runNumber === 0) {
-                    categoryFull.checkCategoryHeader(line, delim);
-                } else if (line !== "" && index > 0 && runNumber === 0) {
-                    categoryFull.extractCategoryIds(index - 1, line, delim);
-                    categories = categoryFull.getAllCategoryIds();
-                } else if (line !== "" && index > 0 && runNumber === 1) {
-                    categoryFull.runChecks(line, delim);
-                    categoryFullRowCount++;
-                }
-
-                index++;
-
-                s.resume();
-            })
-            .on('error', function () {
-                console.log('\n\n\n [Category Full] - Error while reading file');
-            })
-            .on('end', function () {
-                console.log('\n\n\n[Category Full] Read entire categoryFull file.\n');
-                /*productFull.printLog(rowCount);*/
-
-                /*console.timeEnd('Validation Excuted In');*/
-                console.log("\n\n\n[Category Full]" + categoryFull.getErrorMessage());
-            })
-        );
 
 function deleteFile(){
 	rmdir(dirPath + fileName.slice(0, -4), function (err, dirs, files) {
