@@ -29,6 +29,8 @@ var categoryIdCounter = []; /* For each category in the file, count how many tim
 var productRowHeaderCheck = true; /* ??? */
 var catIdPos; /* Which column corresponds to the category id*/
 
+var parentIdPos;
+
 var allCategoryIdsWithParent = [];
 
 var errorMsg = [];
