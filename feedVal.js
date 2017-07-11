@@ -5,20 +5,19 @@ var es = require('event-stream');
 var unzip = require('unzip');
 var deltaError = require('./helper/deltaHelper.js');
 var productFull = require('./helper/product_full.js');
-var prodInCat = require('./helper/product_in_category.js');
 var categoryFull = require('./helper/category_full.js');
 var fileName = "\/" + process.argv[2];
 var delim = process.argv[3];
 var dirPath = __dirname;
-var rowCountPf = 1;
-var rowCountPic = 1;
+var rowCount = 1;
+var categoryFullRowCount = 0;
 var rmdir = require('rmdir');
-var productIds;
 var categories;
 var promise = require('bluebird');
 var iterPromises = [];
 
 console.log(dirPath + "\/" + process.argv[2].slice(0, -4) + "\/");
+
 
 if(process.argv[2].indexOf('zip') > -1){
 
@@ -109,31 +108,26 @@ function product_Full(file, files){
 	});
 }
 
-function product_In_Category(file, productIds, files){
-	console.time('Product In Category Validation Excuted In');
-	// console.log("ProductIDs: " + productIds);
-	//Validation Process
-	var s = fs.createReadStream(dirPath+fileName.slice(0, -4)+"\/"+file)
-		.pipe(es.split())
-		//.pipe(es.parse({error:true}))
-		.pipe(es.mapSync(function(line){
-			s.pause();
+function product_Full(file) {
+    console.time('Validation Excuted In');
+    //Validation Process
+    var s = fs.createReadStream(dirPath + fileName.slice(0, -4) + "\/" + file)
+        .pipe(es.split())
+        //.pipe(es.parse({error:true}))
+        .pipe(es.mapSync(function (line) {
+                s.pause();
 
-			prodInCat.rowCheck(line,rowCountPic,delim,productIds);
+                productFull.rowCheck(line, rowCount, delim);
 
-			rowCountPic++;
+                rowCount++;
 
-			s.resume();
-		})
-		.on('error', function(){
-			console.log('Error while reading file Product in Category');
-		})
-		.on('end', function(){
-			console.log('Read entire file.\n');
-
-			prodInCat.printLog(rowCountPic);
-			// productIds = prodInCat.retrieveAllProductIds();
-
+                s.resume();
+            })
+            .on('error', function () {
+                console.log('Product Full - Error while reading file');
+            })
+            .on('end', function () {
+                console.log('Read entire file.\n');
 
 		})
 	);
@@ -209,6 +203,7 @@ function validateCategoryFull(file, errorLog, runNumber) {
     	    );
     });
 }
+
 
 
 
