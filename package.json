@@ -4,7 +4,8 @@
   "description": "feed validator",
   "main": "feederror.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [
     "feed"
@@ -13,8 +14,13 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.0",
+    "chalk": "^2.0.1",
     "event-stream": "^3.3.4",
+    "express": "^4.15.3",
     "extract-zip": "^1.6.0",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
     "rmdir": "^1.2.0",
     "stream": "0.0.2",
     "unzip": "^0.1.11",
