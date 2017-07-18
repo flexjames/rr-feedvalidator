@@ -1,7 +1,7 @@
 const express = require('express');
 const chalk = require('chalk');
 const morgan = require('morgan');
-const routes = require('./router');
+const routes = require('../router');
 
 const app = express();
 
@@ -30,7 +30,9 @@ app.use(function(err, req, res, next) {
 });
 
 
-//starts the server
-app.listen(1337, function(){
-	console.log(chalk.green('listening on port 1337'));
-});
+// //starts the server
+// app.listen(1337, function(){
+// 	console.log(chalk.green('listening on port 1337'));
+// });
+
+module.exports = app;
