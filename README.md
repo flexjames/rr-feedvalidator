@@ -26,7 +26,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ cd rr-feedvalidator
 $ npm install 
-$ nnode feedVal <name of the zip file> "|"
+$ node feedVal <name of the zip file> "|"
 ```
 
 ### Tech
