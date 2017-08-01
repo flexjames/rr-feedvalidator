@@ -2,7 +2,7 @@ var fs = require('fs');
 var util = require('util');
 var stream = require('stream');
 var es = require('event-stream');
-var unzip = require('unzip');
+var unzip = require('unzip2');
 var deltaError = require('./helper/deltaHelper.js');
 var productFull = require('./helper/product_full.js');
 var prodInCat = require('./helper/product_in_category.js');
@@ -25,8 +25,8 @@ if(process.argv[2].indexOf('zip') > -1){
 
 	fs.createReadStream(dirPath + fileName)
 		.pipe(unzip.Extract({path: dirPath + "\/" + process.argv[2].slice(0, -4)}))
-		.on('error', function(){
-			throw new Error(error);
+		.on('error', function(e){
+			throw new Error(e.message);
 		})
 		.on('close', function(){
 			console.log('Done extracting files');
@@ -34,9 +34,9 @@ if(process.argv[2].indexOf('zip') > -1){
 			fs.readdir(dirPath + fileName.slice(0, -4) + "\/", function(err, files){
 
 				if (err){
-					console.log('Unzipped Successfully');
 					throw new Error(err);
 				}else{
+					console.log('Unzipped Successfully');
 					// console.log(files);
 					validate(files);
 				}

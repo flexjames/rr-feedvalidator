@@ -2,10 +2,14 @@ const express = require('express');
 const chalk = require('chalk');
 const morgan = require('morgan');
 const routes = require('../router');
+const bodyParser = require('body-parser');
+const fileUpload = require('express-fileupload');
 
 const app = express();
 
-
+app.use(fileUpload());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //morgan logs the requests that are being made to the server
 app.use(morgan('dev'));

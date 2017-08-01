@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
     "chalk": "^2.0.1",
     "event-stream": "^3.3.4",
     "express": "^4.15.3",
@@ -24,6 +25,7 @@
     "rmdir": "^1.2.0",
     "stream": "0.0.2",
     "unzip": "^0.1.11",
+    "unzip2": "^0.2.5",
     "util": "^0.10.3"
   }
 }
