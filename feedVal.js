@@ -44,6 +44,32 @@ if(process.argv[2].indexOf('zip') > -1){
 		});
 }
 
+// function validate(files){
+//     console.time('Validation Excuted In');
+//     console.log(files);
+//
+//     for(var i=0; i < files.length; i++) {
+//         //if(files[i].slice(0,12) === 'product_full'){
+//         // if (files[i].slice(0, 13) === 'category_full') {
+//         //     category_Full(files[i], files)
+//         //             .catch(function (err) {
+//         //                 console.log(err);
+//         //             })
+//         //             .then(function (ids) {
+//         //                 console.log(ids);
+//         //             })
+//         //             .then(function () {
+//         //                 console.timeEnd('Validation Excuted In');
+//         //                 deleteFiles()
+//         //             })
+//         // }
+//
+//         if (files[i].slice(0, 19) === 'product_in_category') {
+//         	product_In_Category(files[i], files);
+//         }
+//     }
+// }
+
 function validate(files){
 	console.time('Validation Excuted In');
 	console.log(files);
@@ -116,6 +142,7 @@ function product_Full(file, files){
 
 function product_In_Category(file, ids){
 	console.time('Product In Category Validation Excuted In');
+	console.log('Made it to Product_In_Category');
 	// console.log("ProductIDs: " + productIds);
 	//Validation Process
 	var s = fs.createReadStream(dirPath+fileName.slice(0, -4)+"\/"+file)
@@ -126,12 +153,14 @@ function product_In_Category(file, ids){
 
 			prodInCat.rowCheck(line,rowCountPic,delim,ids);
 
+			//console.log(rowCountPic);
 			rowCountPic++;
 
 			s.resume();
 		})
-		.on('error', function(){
+		.on('error', function(e){
 			console.log('Error while reading file Product in Category');
+			console.log(e);
 		})
 		.on('end', function(){
 			console.log('Read entire file.\n');
@@ -139,10 +168,9 @@ function product_In_Category(file, ids){
 			prodInCat.printLog(rowCountPic);
 			// productIds = prodInCat.retrieveAllProductIds();
 
-
+			console.timeEnd('Product In Category Validation Excuted In');	
 		})
 	);
-	console.timeEnd('Product In Category Validation Excuted In');	
 }
 
 

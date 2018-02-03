@@ -19,9 +19,9 @@ function rowCheck(row,idx,delim,ids){
 		isCatIdFirst = true;
 	}
 	
-	catIds = ids[0];
-	ids[1].splice(0,1);
-	prodIds = ids[1];
+	catIds = row[0];
+	//row[1].splice(0,1);
+	prodIds = row[1];
   }else{
 	rowMergeCheck(row, idx, delim);
 	rowLengthCheck(row, idx, delim);
